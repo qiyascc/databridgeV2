@@ -15,9 +15,11 @@ class ProductSitemapConfig(AppConfig):
         try:
             # Schedule task
             scheduler = BackgroundScheduler()
-            from .tasks import fetch_sitemap_data
+            from scraper_apps.lcwaikiki.product_sitemap_api.tasks import fetch_sitemap_data
 
-            fetch_sitemap_data()
+            from scraper_apps.lcwaikiki.product_sitemap_api.models import SitemapSource
+            if not SitemapSource.objects.exists():
+                SitemapSource.objects.create()
             
             scheduler.add_job(
                 fetch_sitemap_data,

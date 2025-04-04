@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     ## scraper_apps
     ### scraper_apps.lcwaikiki
     "scraper_apps.lcwaikiki.product_sitemap_api",
+    "scraper_apps.lcwaikiki.product_list_api",
+    "scraper_apps.lcwaikiki.product_api",
 ]
 
 MIDDLEWARE = [
@@ -236,3 +238,5 @@ PROXY_LIST = [
     "http://zkcqmduo:wg1ks7uapqib@64.43.89.52:6311",
     "http://zkcqmduo:wg1ks7uapqib@43.245.117.16:5600"
 ]
+
+CURRENTLY_API_VERSION = "v1"

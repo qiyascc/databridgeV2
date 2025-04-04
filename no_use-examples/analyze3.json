@@ -1,0 +1,1653 @@
+[
+    {
+        "Title": "Bisiklet Yaka Uzun Kollu Erkek Sweatshirt",
+        "ProductDescription": null,
+        "TitleIsNotAutoGenerate": false,
+        "PrependOptionColor": false,
+        "ImageUrl": "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc_u.jpg",
+        "Brand": "LCWAIKIKI Basic",
+        "SubBrand": null,
+        "CurrentPrice": 499.99,
+        "OldPrice": 499.99,
+        "MainCategoryTree": {
+            "Level1": {
+                "Level": 1,
+                "CategoryUniqueId": 2,
+                "AttributeId": 10,
+                "LevelValue": "Erkek"
+            },
+            "Level2": {
+                "Level": 2,
+                "CategoryUniqueId": 9,
+                "AttributeId": 57794,
+                "LevelValue": "Giyim"
+            },
+            "Level3": {
+                "Level": 3,
+                "CategoryUniqueId": 300,
+                "AttributeId": 6,
+                "LevelValue": "Sweatshirt-Erkek"
+            },
+            "Level4": [
+                {
+                    "Level": 4,
+                    "CategoryUniqueId": 3048,
+                    "AttributeId": 16,
+                    "LevelValue": "Sweatshirt"
+                }
+            ]
+        },
+        "BreadCrump": {
+            "Level1": "Erkek",
+            "Level2": "Giyim",
+            "Level3": "Sweatshirt-Erkek",
+            "Level4": "Sweatshirt"
+        },
+        "LowestPriceInLastMonth": 499.99,
+        "IsDiscounted": false,
+        "IsNew": false,
+        "GaSelectItem": "{\"event\":\"select_item\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"items\":[{\"item_id\":\"4387152\",\"item_name\":\"Bisiklet Yaka Uzun Kollu Erkek Sweatshirt\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/2AL5-3AL7-4UZERI10.PNG\",\"discount\":0.0,\"index\":1,\"item_brand\":\"LCWAIKIKI Basic\",\"item_category\":\"erkek\",\"item_category2\":\"giyim\",\"item_category3\":\"sweatshirt-erkek\",\"item_category4\":\"sweatshirt\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S50539Z8-FMC\",\"location_id\":\"\",\"price\":499.99,\"quantity\":1,\"dimension1\":\"S50539Z8-FMC\",\"dimension2\":\"\",\"dimension3\":\"FMC\",\"dimension4\":\"7528239\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc_u.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sweatshirt\",\"dimension8\":\"erkek / giyim / sweatshirt-erkek / sweatshirt\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S50539Z8\",\"dimension12\":\"499.99\",\"dimension13\":\"5\",\"dimension14\":\"6\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"select_item\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4AddToWishListEvent": "{\"event\":\"add_to_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":499.99,\"items\":[{\"item_id\":\"4387152\",\"item_name\":\"Bisiklet Yaka Uzun Kollu Erkek Sweatshirt\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/2AL5-3AL7-4UZERI10.PNG\",\"discount\":0.0,\"index\":1,\"item_brand\":\"LCWAIKIKI Basic\",\"item_category\":\"erkek\",\"item_category2\":\"giyim\",\"item_category3\":\"sweatshirt-erkek\",\"item_category4\":\"sweatshirt\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S50539Z8-FMC\",\"location_id\":\"\",\"price\":499.99,\"quantity\":1,\"dimension1\":\"S50539Z8-FMC\",\"dimension2\":\"\",\"dimension3\":\"FMC\",\"dimension4\":\"7528239\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc_u.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sweatshirt\",\"dimension8\":\"erkek / giyim / sweatshirt-erkek / sweatshirt\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S50539Z8\",\"dimension12\":\"499.99\",\"dimension13\":\"5\",\"dimension14\":\"6\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"add_to_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4RemoveFromWishListEvent": "{\"event\":\"remove_from_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":499.99,\"items\":[{\"item_id\":\"4387152\",\"item_name\":\"Bisiklet Yaka Uzun Kollu Erkek Sweatshirt\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/2AL5-3AL7-4UZERI10.PNG\",\"discount\":0.0,\"index\":1,\"item_brand\":\"LCWAIKIKI Basic\",\"item_category\":\"erkek\",\"item_category2\":\"giyim\",\"item_category3\":\"sweatshirt-erkek\",\"item_category4\":\"sweatshirt\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S50539Z8-FMC\",\"location_id\":\"\",\"price\":499.99,\"quantity\":1,\"dimension1\":\"S50539Z8-FMC\",\"dimension2\":\"\",\"dimension3\":\"FMC\",\"dimension4\":\"7528239\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc_u.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sweatshirt\",\"dimension8\":\"erkek / giyim / sweatshirt-erkek / sweatshirt\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S50539Z8\",\"dimension12\":\"499.99\",\"dimension13\":\"5\",\"dimension14\":\"6\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"remove_from_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "CreateDate": null,
+        "Url": "/bisiklet-yaka-uzun-kollu-erkek-sweatshirt-gri-o-4387152",
+        "OptionId": 4387152,
+        "CurrencyCode": "TL",
+        "Stock": 24,
+        "Products": [
+            {
+                "ProductId": 17992543,
+                "UrunOptionSizeRef": 15267766,
+                "Stock": 4,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13544,
+                    "Value": "XL",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 23,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4387152,
+                    "HeightSizeId": 65842628,
+                    "HeightValue": 75.5,
+                    "PomSizeId": 1,
+                    "PomSizeName": "Omuz",
+                    "SizeValue": "XL",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15267766,
+                    "SalePrice": 499.99,
+                    "SalePriceWithCurrency": "499,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17992542,
+                "UrunOptionSizeRef": 15267765,
+                "Stock": 1,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13543,
+                    "Value": "S",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 11,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4387152,
+                    "HeightSizeId": 65842625,
+                    "HeightValue": 71.0,
+                    "PomSizeId": 1,
+                    "PomSizeName": "Omuz",
+                    "SizeValue": "S",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15267765,
+                    "SalePrice": 499.99,
+                    "SalePriceWithCurrency": "499,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17992541,
+                "UrunOptionSizeRef": 15267764,
+                "Stock": 6,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13542,
+                    "Value": "M",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 15,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4387152,
+                    "HeightSizeId": 65842626,
+                    "HeightValue": 73.0,
+                    "PomSizeId": 1,
+                    "PomSizeName": "Omuz",
+                    "SizeValue": "M",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15267764,
+                    "SalePrice": 499.99,
+                    "SalePriceWithCurrency": "499,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17992540,
+                "UrunOptionSizeRef": 15267763,
+                "Stock": 8,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13541,
+                    "Value": "L",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 19,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4387152,
+                    "HeightSizeId": 65842627,
+                    "HeightValue": 74.0,
+                    "PomSizeId": 1,
+                    "PomSizeName": "Omuz",
+                    "SizeValue": "L",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15267763,
+                    "SalePrice": 499.99,
+                    "SalePriceWithCurrency": "499,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17992539,
+                "UrunOptionSizeRef": 15267761,
+                "Stock": 3,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13958,
+                    "Value": "3XL",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 29,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4387152,
+                    "HeightSizeId": 65842630,
+                    "HeightValue": 78.5,
+                    "PomSizeId": 1,
+                    "PomSizeName": "Omuz",
+                    "SizeValue": "3XL",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15267761,
+                    "SalePrice": 499.99,
+                    "SalePriceWithCurrency": "499,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17992538,
+                "UrunOptionSizeRef": 15267760,
+                "Stock": 2,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13987,
+                    "Value": "2XL",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 27,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4387152,
+                    "HeightSizeId": 65842629,
+                    "HeightValue": 77.0,
+                    "PomSizeId": 1,
+                    "PomSizeName": "Omuz",
+                    "SizeValue": "2XL",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15267760,
+                    "SalePrice": 499.99,
+                    "SalePriceWithCurrency": "499,99 TL",
+                    "ProductBadges": []
+                }
+            }
+        ],
+        "AvailableStock": 0,
+        "DisplayOrder": 0,
+        "Color": null,
+        "ColorId": 0,
+        "RenkKod": "FMC",
+        "OzelKod1": "S50539Z8",
+        "ModelName": null,
+        "Rank": 0.0,
+        "MainColorName": null,
+        "DiscountRatio": 0,
+        "ProductGroupId": 1,
+        "GenderId": 1,
+        "Gender": "Erkek",
+        "CategoryId": 6,
+        "BrandId": 5,
+        "ModelId": 7528239,
+        "IsOutlet": false,
+        "IsAvailableForNewComer": false,
+        "IsDoubleSize": false,
+        "CategoryName": "Sweatshirt-Erkek",
+        "Variant": null,
+        "ProductGroup": "Erkek",
+        "DiscountDate": null,
+        "Campaigns": {
+            "1": true
+        },
+        "Badges": null,
+        "CampaignBadges": [
+            {
+                "SalePrice": 0.0,
+                "BadgeId": 0,
+                "Culture": "tr-TR",
+                "Web": "https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/2AL5-3AL7-4UZERI10.PNG",
+                "MobileWeb": "https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/2AL5-3AL7-4UZERI10.PNG",
+                "MobileApp": "https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/2AL5-3AL7-4UZERI10.PNG",
+                "Text": null,
+                "DiscountedPrice": 0.0,
+                "DiscountedPriceWithCurrency": null,
+                "DiscountRate": 0.0,
+                "ShowDiscountedPrice": false,
+                "CampaignStartDate": "2025-03-17T07:00:00+03:00",
+                "CampaignEndDate": "2025-04-07T07:00:00+03:00",
+                "Description": "Basic Ürünlerde Fırsat!",
+                "CampaignId": 0,
+                "BadgeType": 0,
+                "IsRealBadge": false,
+                "ShowCampaignDescription": true
+            }
+        ],
+        "RankSecond": 0.0,
+        "OptionColorCount": 5,
+        "ImageUrlList": [
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc-99-76-90-186_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc-99-76-90-186_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc-99-76-90-186_a2.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc-99-76-90-186_a3.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc_u.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7528239/v1/l_20251-s50539z8-fmc_u1.jpg"
+        ],
+        "ReviewCount": 0,
+        "AvgScore": 0.0,
+        "BunsarSearchTagList": null,
+        "MixAndMatchActiveFlag": false,
+        "OptionSpecialProperty": 0,
+        "OptionRef": 3272967,
+        "SubTitleDescription": null,
+        "CampaignPrice": 0.0,
+        "BrandPropertyDescription": null,
+        "SupplierId": 1,
+        "StoreName": "LC Waikiki",
+        "MannequinCode": 0,
+        "UrunOptionSizeRefList": null,
+        "Supplier": null
+    },
+    {
+        "Title": "760 Skinny Fit Erkek Jean Pantolon",
+        "ProductDescription": null,
+        "TitleIsNotAutoGenerate": false,
+        "PrependOptionColor": false,
+        "ImageUrl": "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309_u.jpg",
+        "Brand": "LCW Jeans",
+        "SubBrand": null,
+        "CurrentPrice": 799.99,
+        "OldPrice": 799.99,
+        "MainCategoryTree": {
+            "Level1": {
+                "Level": 1,
+                "CategoryUniqueId": 2,
+                "AttributeId": 10,
+                "LevelValue": "Erkek"
+            },
+            "Level2": {
+                "Level": 2,
+                "CategoryUniqueId": 9,
+                "AttributeId": 57794,
+                "LevelValue": "Giyim"
+            },
+            "Level3": {
+                "Level": 3,
+                "CategoryUniqueId": 194,
+                "AttributeId": 22,
+                "LevelValue": "Jean-Erkek"
+            },
+            "Level4": [
+                {
+                    "Level": 4,
+                    "CategoryUniqueId": 2897,
+                    "AttributeId": 60,
+                    "LevelValue": "Jean Pantolon"
+                }
+            ]
+        },
+        "BreadCrump": {
+            "Level1": "Erkek",
+            "Level2": "Giyim",
+            "Level3": "Jean-Erkek",
+            "Level4": "Jean Pantolon"
+        },
+        "LowestPriceInLastMonth": 799.99,
+        "IsDiscounted": false,
+        "IsNew": false,
+        "GaSelectItem": "{\"event\":\"select_item\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"items\":[{\"item_id\":\"4335035\",\"item_name\":\"760 Skinny Fit Erkek Jean Pantolon\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":2,\"item_brand\":\"LCW Jeans\",\"item_category\":\"erkek\",\"item_category2\":\"giyim\",\"item_category3\":\"jean-erkek\",\"item_category4\":\"jean pantolon\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S58019Z8-309\",\"location_id\":\"\",\"price\":799.99,\"quantity\":1,\"dimension1\":\"S58019Z8-309\",\"dimension2\":\"\",\"dimension3\":\"309\",\"dimension4\":\"7625600\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309_u.jpg\",\"dimension6\":\"0\",\"dimension7\":\"jean pantolon\",\"dimension8\":\"erkek / giyim / jean-erkek / jean pantolon\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S58019Z8\",\"dimension12\":\"799.99\",\"dimension13\":\"1\",\"dimension14\":\"6\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"select_item\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4AddToWishListEvent": "{\"event\":\"add_to_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":799.99,\"items\":[{\"item_id\":\"4335035\",\"item_name\":\"760 Skinny Fit Erkek Jean Pantolon\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":2,\"item_brand\":\"LCW Jeans\",\"item_category\":\"erkek\",\"item_category2\":\"giyim\",\"item_category3\":\"jean-erkek\",\"item_category4\":\"jean pantolon\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S58019Z8-309\",\"location_id\":\"\",\"price\":799.99,\"quantity\":1,\"dimension1\":\"S58019Z8-309\",\"dimension2\":\"\",\"dimension3\":\"309\",\"dimension4\":\"7625600\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309_u.jpg\",\"dimension6\":\"0\",\"dimension7\":\"jean pantolon\",\"dimension8\":\"erkek / giyim / jean-erkek / jean pantolon\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S58019Z8\",\"dimension12\":\"799.99\",\"dimension13\":\"1\",\"dimension14\":\"6\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"add_to_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4RemoveFromWishListEvent": "{\"event\":\"remove_from_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":799.99,\"items\":[{\"item_id\":\"4335035\",\"item_name\":\"760 Skinny Fit Erkek Jean Pantolon\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":2,\"item_brand\":\"LCW Jeans\",\"item_category\":\"erkek\",\"item_category2\":\"giyim\",\"item_category3\":\"jean-erkek\",\"item_category4\":\"jean pantolon\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S58019Z8-309\",\"location_id\":\"\",\"price\":799.99,\"quantity\":1,\"dimension1\":\"S58019Z8-309\",\"dimension2\":\"\",\"dimension3\":\"309\",\"dimension4\":\"7625600\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309_u.jpg\",\"dimension6\":\"0\",\"dimension7\":\"jean pantolon\",\"dimension8\":\"erkek / giyim / jean-erkek / jean pantolon\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S58019Z8\",\"dimension12\":\"799.99\",\"dimension13\":\"1\",\"dimension14\":\"6\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"remove_from_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "CreateDate": null,
+        "Url": "/760-skinny-fit-erkek-jean-pantolon-indigo-o-4335035",
+        "OptionId": 4335035,
+        "CurrencyCode": "TL",
+        "Stock": 135,
+        "Products": [
+            {
+                "ProductId": 17856643,
+                "UrunOptionSizeRef": 15685648,
+                "Stock": 4,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13658,
+                    "Value": "36",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1600,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 5535,
+                    "Value": "33",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 340,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "36",
+                    "HeightSizeValue": "33"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685648,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856642,
+                "UrunOptionSizeRef": 15685646,
+                "Stock": 4,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 15073,
+                    "Value": "34",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1490,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 5535,
+                    "Value": "33",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 340,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "34",
+                    "HeightSizeValue": "33"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685646,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856641,
+                "UrunOptionSizeRef": 15685645,
+                "Stock": 23,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 15073,
+                    "Value": "34",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1490,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 5688,
+                    "Value": "31",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 315,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "34",
+                    "HeightSizeValue": "31"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685645,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856640,
+                "UrunOptionSizeRef": 15685643,
+                "Stock": 8,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13656,
+                    "Value": "32",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1420,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 5535,
+                    "Value": "33",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 340,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "32",
+                    "HeightSizeValue": "33"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685643,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856639,
+                "UrunOptionSizeRef": 15685642,
+                "Stock": 29,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13656,
+                    "Value": "32",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1420,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 5688,
+                    "Value": "31",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 315,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "32",
+                    "HeightSizeValue": "31"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685642,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856638,
+                "UrunOptionSizeRef": 15685641,
+                "Stock": 15,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13656,
+                    "Value": "32",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1420,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 6208,
+                    "Value": "29",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 10,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "32",
+                    "HeightSizeValue": "29"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685641,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856637,
+                "UrunOptionSizeRef": 15685639,
+                "Stock": 24,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13655,
+                    "Value": "30",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1350,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 5688,
+                    "Value": "31",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 315,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "30",
+                    "HeightSizeValue": "31"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685639,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856636,
+                "UrunOptionSizeRef": 15685638,
+                "Stock": 7,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13655,
+                    "Value": "30",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1350,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 6208,
+                    "Value": "29",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 10,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "30",
+                    "HeightSizeValue": "29"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685638,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17856635,
+                "UrunOptionSizeRef": 15685636,
+                "Stock": 21,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13983,
+                    "Value": "28",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1280,
+                    "Height": null
+                },
+                "Height": {
+                    "SizeId": 6208,
+                    "Value": "29",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 10,
+                    "Height": null
+                },
+                "PomHeight": {
+                    "OptionId": 4335035,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "28",
+                    "HeightSizeValue": "29"
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15685636,
+                    "SalePrice": 799.99,
+                    "SalePriceWithCurrency": "799,99 TL",
+                    "ProductBadges": []
+                }
+            }
+        ],
+        "AvailableStock": 0,
+        "DisplayOrder": 0,
+        "Color": null,
+        "ColorId": 0,
+        "RenkKod": "309",
+        "OzelKod1": "S58019Z8",
+        "ModelName": null,
+        "Rank": 0.0,
+        "MainColorName": null,
+        "DiscountRatio": 0,
+        "ProductGroupId": 1,
+        "GenderId": 1,
+        "Gender": "Erkek",
+        "CategoryId": 22,
+        "BrandId": 5,
+        "ModelId": 7625600,
+        "IsOutlet": false,
+        "IsAvailableForNewComer": false,
+        "IsDoubleSize": false,
+        "CategoryName": "Jean-Erkek",
+        "Variant": null,
+        "ProductGroup": "Erkek",
+        "DiscountDate": null,
+        "Campaigns": {
+            "1": true
+        },
+        "Badges": [],
+        "CampaignBadges": [],
+        "RankSecond": 0.0,
+        "OptionColorCount": 1,
+        "ImageUrlList": [
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309-98-76-96-189_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309-98-76-96-189_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309-98-76-96-189_a2.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309-98-76-96-189_a3.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309_u.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7625600/v1/l_20251-s58019z8-309_u1.jpg"
+        ],
+        "ReviewCount": 0,
+        "AvgScore": 0.0,
+        "BunsarSearchTagList": null,
+        "MixAndMatchActiveFlag": false,
+        "OptionSpecialProperty": 0,
+        "OptionRef": 3330482,
+        "SubTitleDescription": null,
+        "CampaignPrice": 0.0,
+        "BrandPropertyDescription": null,
+        "SupplierId": 1,
+        "StoreName": "LC Waikiki",
+        "MannequinCode": 0,
+        "UrunOptionSizeRefList": null,
+        "Supplier": null
+    },
+    {
+        "Title": "Bağcıklı Erkek Spor Ayakkabı",
+        "ProductDescription": null,
+        "TitleIsNotAutoGenerate": false,
+        "PrependOptionColor": false,
+        "ImageUrl": "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a.jpg",
+        "Brand": "LCW STEPS",
+        "SubBrand": null,
+        "CurrentPrice": 999.99,
+        "OldPrice": 999.99,
+        "MainCategoryTree": {
+            "Level1": {
+                "Level": 1,
+                "CategoryUniqueId": 2,
+                "AttributeId": 10,
+                "LevelValue": "Erkek"
+            },
+            "Level2": {
+                "Level": 2,
+                "CategoryUniqueId": 32,
+                "AttributeId": 57798,
+                "LevelValue": "Ayakkabı"
+            },
+            "Level3": {
+                "Level": 3,
+                "CategoryUniqueId": 290,
+                "AttributeId": 28,
+                "LevelValue": "Spor Ayakkabı-Erkek"
+            },
+            "Level4": [
+                {
+                    "Level": 4,
+                    "CategoryUniqueId": 909,
+                    "AttributeId": 187,
+                    "LevelValue": "Sneaker"
+                }
+            ]
+        },
+        "BreadCrump": {
+            "Level1": "Erkek",
+            "Level2": "Ayakkabı",
+            "Level3": "Spor Ayakkabı-Erkek",
+            "Level4": "Sneaker"
+        },
+        "LowestPriceInLastMonth": 999.99,
+        "IsDiscounted": false,
+        "IsNew": false,
+        "GaSelectItem": "{\"event\":\"select_item\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"items\":[{\"item_id\":\"4389045\",\"item_name\":\"Bagcikli Erkek Spor Ayakkabi\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":3,\"item_brand\":\"LCW STEPS\",\"item_category\":\"erkek\",\"item_category2\":\"ayakkabi\",\"item_category3\":\"spor ayakkabi-erkek\",\"item_category4\":\"sneaker\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S5CU09Z8-J5E\",\"location_id\":\"\",\"price\":999.99,\"quantity\":1,\"dimension1\":\"S5CU09Z8-J5E\",\"dimension2\":\"\",\"dimension3\":\"J5E\",\"dimension4\":\"7717801\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sneaker\",\"dimension8\":\"erkek / ayakkabi / spor ayakkabi-erkek / sneaker\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S5CU09Z8\",\"dimension12\":\"999.99\",\"dimension13\":\"3\",\"dimension14\":\"5\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"select_item\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4AddToWishListEvent": "{\"event\":\"add_to_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":999.99,\"items\":[{\"item_id\":\"4389045\",\"item_name\":\"Bagcikli Erkek Spor Ayakkabi\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":3,\"item_brand\":\"LCW STEPS\",\"item_category\":\"erkek\",\"item_category2\":\"ayakkabi\",\"item_category3\":\"spor ayakkabi-erkek\",\"item_category4\":\"sneaker\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S5CU09Z8-J5E\",\"location_id\":\"\",\"price\":999.99,\"quantity\":1,\"dimension1\":\"S5CU09Z8-J5E\",\"dimension2\":\"\",\"dimension3\":\"J5E\",\"dimension4\":\"7717801\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sneaker\",\"dimension8\":\"erkek / ayakkabi / spor ayakkabi-erkek / sneaker\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S5CU09Z8\",\"dimension12\":\"999.99\",\"dimension13\":\"3\",\"dimension14\":\"5\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"add_to_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4RemoveFromWishListEvent": "{\"event\":\"remove_from_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":999.99,\"items\":[{\"item_id\":\"4389045\",\"item_name\":\"Bagcikli Erkek Spor Ayakkabi\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":3,\"item_brand\":\"LCW STEPS\",\"item_category\":\"erkek\",\"item_category2\":\"ayakkabi\",\"item_category3\":\"spor ayakkabi-erkek\",\"item_category4\":\"sneaker\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S5CU09Z8-J5E\",\"location_id\":\"\",\"price\":999.99,\"quantity\":1,\"dimension1\":\"S5CU09Z8-J5E\",\"dimension2\":\"\",\"dimension3\":\"J5E\",\"dimension4\":\"7717801\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sneaker\",\"dimension8\":\"erkek / ayakkabi / spor ayakkabi-erkek / sneaker\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S5CU09Z8\",\"dimension12\":\"999.99\",\"dimension13\":\"3\",\"dimension14\":\"5\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"remove_from_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "CreateDate": null,
+        "Url": "/bagcikli-erkek-spor-ayakkabi-beyaz-o-4389045",
+        "OptionId": 4389045,
+        "CurrencyCode": "TL",
+        "Stock": 25,
+        "Products": [
+            {
+                "ProductId": 17618024,
+                "UrunOptionSizeRef": 15808406,
+                "Stock": 2,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13935,
+                    "Value": "46",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 2100,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "46",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808406,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17618023,
+                "UrunOptionSizeRef": 15808405,
+                "Stock": 3,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13952,
+                    "Value": "45",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 2050,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "45",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808405,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17618022,
+                "UrunOptionSizeRef": 15808404,
+                "Stock": 4,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 15068,
+                    "Value": "44",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 4700,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "44",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808404,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17618021,
+                "UrunOptionSizeRef": 15808403,
+                "Stock": 6,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13977,
+                    "Value": "43",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1950,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "43",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808403,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17618020,
+                "UrunOptionSizeRef": 15808402,
+                "Stock": 8,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 15065,
+                    "Value": "42",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 4000,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "42",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808402,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17618019,
+                "UrunOptionSizeRef": 15808401,
+                "Stock": 1,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13963,
+                    "Value": "41",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1820,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "41",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808401,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17618018,
+                "UrunOptionSizeRef": 15808400,
+                "Stock": 1,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13933,
+                    "Value": "40",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1800,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4389045,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "40",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15808400,
+                    "SalePrice": 999.99,
+                    "SalePriceWithCurrency": "999,99 TL",
+                    "ProductBadges": []
+                }
+            }
+        ],
+        "AvailableStock": 0,
+        "DisplayOrder": 0,
+        "Color": null,
+        "ColorId": 0,
+        "RenkKod": "J5E",
+        "OzelKod1": "S5CU09Z8",
+        "ModelName": null,
+        "Rank": 0.0,
+        "MainColorName": null,
+        "DiscountRatio": 0,
+        "ProductGroupId": 1,
+        "GenderId": 1,
+        "Gender": "Erkek",
+        "CategoryId": 28,
+        "BrandId": 5,
+        "ModelId": 7717801,
+        "IsOutlet": false,
+        "IsAvailableForNewComer": false,
+        "IsDoubleSize": false,
+        "CategoryName": "Spor Ayakkabı-Erkek",
+        "Variant": null,
+        "ProductGroup": "Erkek",
+        "DiscountDate": null,
+        "Campaigns": {
+            "1": true
+        },
+        "Badges": [],
+        "CampaignBadges": [],
+        "RankSecond": 0.0,
+        "OptionColorCount": 3,
+        "ImageUrlList": [
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a2.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a3.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7717801/v1/l_20251-s5cu09z8-j5e_a4.jpg"
+        ],
+        "ReviewCount": 0,
+        "AvgScore": 0.0,
+        "BunsarSearchTagList": null,
+        "MixAndMatchActiveFlag": false,
+        "OptionSpecialProperty": 0,
+        "OptionRef": 3373235,
+        "SubTitleDescription": null,
+        "CampaignPrice": 0.0,
+        "BrandPropertyDescription": null,
+        "SupplierId": 1,
+        "StoreName": "LC Waikiki",
+        "MannequinCode": 0,
+        "UrunOptionSizeRefList": null,
+        "Supplier": null
+    },
+    {
+        "Title": "Deri Görünümlü Erkek Sırt Çantası",
+        "ProductDescription": null,
+        "TitleIsNotAutoGenerate": false,
+        "PrependOptionColor": false,
+        "ImageUrl": "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v2/l_20251-s56692z8-huc-90-80-85-188_a.jpg",
+        "Brand": "LCW ACCESSORIES",
+        "SubBrand": null,
+        "CurrentPrice": 1799.99,
+        "OldPrice": 1799.99,
+        "MainCategoryTree": {
+            "Level1": {
+                "Level": 1,
+                "CategoryUniqueId": 2,
+                "AttributeId": 10,
+                "LevelValue": "Erkek"
+            },
+            "Level2": {
+                "Level": 2,
+                "CategoryUniqueId": 25,
+                "AttributeId": 57796,
+                "LevelValue": "Aksesuar"
+            },
+            "Level3": {
+                "Level": 3,
+                "CategoryUniqueId": 114,
+                "AttributeId": 37,
+                "LevelValue": "Çanta ve Cüzdan-Erkek"
+            },
+            "Level4": [
+                {
+                    "Level": 4,
+                    "CategoryUniqueId": 1791,
+                    "AttributeId": 18654,
+                    "LevelValue": "Sırt Çantası"
+                }
+            ]
+        },
+        "BreadCrump": {
+            "Level1": "Erkek",
+            "Level2": "Aksesuar",
+            "Level3": "Çanta ve Cüzdan-Erkek",
+            "Level4": "Sırt Çantası"
+        },
+        "LowestPriceInLastMonth": 1299.99,
+        "IsDiscounted": false,
+        "IsNew": false,
+        "GaSelectItem": "{\"event\":\"select_item\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"items\":[{\"item_id\":\"4402128\",\"item_name\":\"Deri Gorunumlu Erkek Sirt Cantasi\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":4,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"canta ve cuzdan-erkek\",\"item_category4\":\"sirt cantasi\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S56692Z8-HUC\",\"location_id\":\"\",\"price\":1799.99,\"quantity\":1,\"dimension1\":\"S56692Z8-HUC\",\"dimension2\":\"\",\"dimension3\":\"HUC\",\"dimension4\":\"7613456\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v2/l_20251-s56692z8-huc-90-80-85-188_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sirt cantasi\",\"dimension8\":\"erkek / aksesuar / canta ve cuzdan-erkek / sirt cantasi\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S56692Z8\",\"dimension12\":\"1799.99\",\"dimension13\":\"1\",\"dimension14\":\"7\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"select_item\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4AddToWishListEvent": "{\"event\":\"add_to_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":1799.99,\"items\":[{\"item_id\":\"4402128\",\"item_name\":\"Deri Gorunumlu Erkek Sirt Cantasi\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":4,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"canta ve cuzdan-erkek\",\"item_category4\":\"sirt cantasi\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S56692Z8-HUC\",\"location_id\":\"\",\"price\":1799.99,\"quantity\":1,\"dimension1\":\"S56692Z8-HUC\",\"dimension2\":\"\",\"dimension3\":\"HUC\",\"dimension4\":\"7613456\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v2/l_20251-s56692z8-huc-90-80-85-188_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sirt cantasi\",\"dimension8\":\"erkek / aksesuar / canta ve cuzdan-erkek / sirt cantasi\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S56692Z8\",\"dimension12\":\"1799.99\",\"dimension13\":\"1\",\"dimension14\":\"7\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"add_to_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4RemoveFromWishListEvent": "{\"event\":\"remove_from_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":1799.99,\"items\":[{\"item_id\":\"4402128\",\"item_name\":\"Deri Gorunumlu Erkek Sirt Cantasi\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":4,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"canta ve cuzdan-erkek\",\"item_category4\":\"sirt cantasi\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S56692Z8-HUC\",\"location_id\":\"\",\"price\":1799.99,\"quantity\":1,\"dimension1\":\"S56692Z8-HUC\",\"dimension2\":\"\",\"dimension3\":\"HUC\",\"dimension4\":\"7613456\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v2/l_20251-s56692z8-huc-90-80-85-188_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"sirt cantasi\",\"dimension8\":\"erkek / aksesuar / canta ve cuzdan-erkek / sirt cantasi\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S56692Z8\",\"dimension12\":\"1799.99\",\"dimension13\":\"1\",\"dimension14\":\"7\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"remove_from_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "CreateDate": null,
+        "Url": "/deri-gorunumlu-erkek-sirt-cantasi-siyah-o-4402128",
+        "OptionId": 4402128,
+        "CurrencyCode": "TL",
+        "Stock": 9,
+        "Products": [
+            {
+                "ProductId": 17981759,
+                "UrunOptionSizeRef": 15366191,
+                "Stock": 9,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13957,
+                    "Value": "Standart",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4402128,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "Standart",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15366191,
+                    "SalePrice": 1799.99,
+                    "SalePriceWithCurrency": "1.799,99 TL",
+                    "ProductBadges": []
+                }
+            }
+        ],
+        "AvailableStock": 0,
+        "DisplayOrder": 0,
+        "Color": null,
+        "ColorId": 0,
+        "RenkKod": "HUC",
+        "OzelKod1": "S56692Z8",
+        "ModelName": null,
+        "Rank": 0.0,
+        "MainColorName": null,
+        "DiscountRatio": 0,
+        "ProductGroupId": 1,
+        "GenderId": 1,
+        "Gender": "Erkek",
+        "CategoryId": 37,
+        "BrandId": 5,
+        "ModelId": 7613456,
+        "IsOutlet": false,
+        "IsAvailableForNewComer": false,
+        "IsDoubleSize": false,
+        "CategoryName": "Çanta ve Cüzdan-Erkek",
+        "Variant": null,
+        "ProductGroup": "Erkek",
+        "DiscountDate": null,
+        "Campaigns": {
+            "1": true
+        },
+        "Badges": null,
+        "CampaignBadges": [],
+        "RankSecond": 0.0,
+        "OptionColorCount": 1,
+        "ImageUrlList": [
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v2/l_20251-s56692z8-huc-90-80-85-188_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v2/l_20251-s56692z8-huc-90-80-85-188_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v1/l_20251-s56692z8-huc_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v1/l_20251-s56692z8-huc_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v1/l_20251-s56692z8-huc_a2.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v1/l_20251-s56692z8-huc_a3.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7613456/v1/l_20251-s56692z8-huc_a4.jpg"
+        ],
+        "ReviewCount": 0,
+        "AvgScore": 0.0,
+        "BunsarSearchTagList": null,
+        "MixAndMatchActiveFlag": false,
+        "OptionSpecialProperty": 0,
+        "OptionRef": 3321773,
+        "SubTitleDescription": null,
+        "CampaignPrice": 0.0,
+        "BrandPropertyDescription": null,
+        "SupplierId": 1,
+        "StoreName": "LC Waikiki",
+        "MannequinCode": 0,
+        "UrunOptionSizeRefList": null,
+        "Supplier": null
+    },
+    {
+        "Title": "Erkek Kep Şapka",
+        "ProductDescription": null,
+        "TitleIsNotAutoGenerate": false,
+        "PrependOptionColor": false,
+        "ImageUrl": "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a.jpg",
+        "Brand": "LCW ACCESSORIES",
+        "SubBrand": null,
+        "CurrentPrice": 149.99,
+        "OldPrice": 149.99,
+        "MainCategoryTree": {
+            "Level1": {
+                "Level": 1,
+                "CategoryUniqueId": 2,
+                "AttributeId": 10,
+                "LevelValue": "Erkek"
+            },
+            "Level2": {
+                "Level": 2,
+                "CategoryUniqueId": 25,
+                "AttributeId": 57796,
+                "LevelValue": "Aksesuar"
+            },
+            "Level3": {
+                "Level": 3,
+                "CategoryUniqueId": 306,
+                "AttributeId": 25,
+                "LevelValue": "Şapka-Erkek"
+            },
+            "Level4": [
+                {
+                    "Level": 4,
+                    "CategoryUniqueId": 1387,
+                    "AttributeId": 18754,
+                    "LevelValue": "Kep Şapka"
+                }
+            ]
+        },
+        "BreadCrump": {
+            "Level1": "Erkek",
+            "Level2": "Aksesuar",
+            "Level3": "Şapka-Erkek",
+            "Level4": "Kep Şapka"
+        },
+        "LowestPriceInLastMonth": 149.99,
+        "IsDiscounted": false,
+        "IsNew": false,
+        "GaSelectItem": "{\"event\":\"select_item\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"items\":[{\"item_id\":\"4303824\",\"item_name\":\"Erkek Kep Sapka\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":5,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"sapka-erkek\",\"item_category4\":\"kep sapka\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S57920Z8-CVL\",\"location_id\":\"\",\"price\":149.99,\"quantity\":1,\"dimension1\":\"S57920Z8-CVL\",\"dimension2\":\"\",\"dimension3\":\"CVL\",\"dimension4\":\"7624668\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"kep sapka\",\"dimension8\":\"erkek / aksesuar / sapka-erkek / kep sapka\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S57920Z8\",\"dimension12\":\"149.99\",\"dimension13\":\"1\",\"dimension14\":\"5\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"select_item\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4AddToWishListEvent": "{\"event\":\"add_to_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":149.99,\"items\":[{\"item_id\":\"4303824\",\"item_name\":\"Erkek Kep Sapka\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":5,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"sapka-erkek\",\"item_category4\":\"kep sapka\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S57920Z8-CVL\",\"location_id\":\"\",\"price\":149.99,\"quantity\":1,\"dimension1\":\"S57920Z8-CVL\",\"dimension2\":\"\",\"dimension3\":\"CVL\",\"dimension4\":\"7624668\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"kep sapka\",\"dimension8\":\"erkek / aksesuar / sapka-erkek / kep sapka\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S57920Z8\",\"dimension12\":\"149.99\",\"dimension13\":\"1\",\"dimension14\":\"5\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"add_to_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4RemoveFromWishListEvent": "{\"event\":\"remove_from_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":149.99,\"items\":[{\"item_id\":\"4303824\",\"item_name\":\"Erkek Kep Sapka\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":5,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"sapka-erkek\",\"item_category4\":\"kep sapka\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S57920Z8-CVL\",\"location_id\":\"\",\"price\":149.99,\"quantity\":1,\"dimension1\":\"S57920Z8-CVL\",\"dimension2\":\"\",\"dimension3\":\"CVL\",\"dimension4\":\"7624668\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"kep sapka\",\"dimension8\":\"erkek / aksesuar / sapka-erkek / kep sapka\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S57920Z8\",\"dimension12\":\"149.99\",\"dimension13\":\"1\",\"dimension14\":\"5\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"remove_from_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "CreateDate": null,
+        "Url": "/erkek-kep-sapka-siyah-o-4303824",
+        "OptionId": 4303824,
+        "CurrencyCode": "TL",
+        "Stock": 70,
+        "Products": [
+            {
+                "ProductId": 17609739,
+                "UrunOptionSizeRef": 15556397,
+                "Stock": 20,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 14118,
+                    "Value": "60",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 2500,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4303824,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "60",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15556397,
+                    "SalePrice": 149.99,
+                    "SalePriceWithCurrency": "149,99 TL",
+                    "ProductBadges": []
+                }
+            },
+            {
+                "ProductId": 17609738,
+                "UrunOptionSizeRef": 15556396,
+                "Stock": 50,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 14121,
+                    "Value": "58",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 2450,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4303824,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "58",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15556396,
+                    "SalePrice": 149.99,
+                    "SalePriceWithCurrency": "149,99 TL",
+                    "ProductBadges": []
+                }
+            }
+        ],
+        "AvailableStock": 0,
+        "DisplayOrder": 0,
+        "Color": null,
+        "ColorId": 0,
+        "RenkKod": "CVL",
+        "OzelKod1": "S57920Z8",
+        "ModelName": null,
+        "Rank": 0.0,
+        "MainColorName": null,
+        "DiscountRatio": 0,
+        "ProductGroupId": 1,
+        "GenderId": 1,
+        "Gender": "Erkek",
+        "CategoryId": 25,
+        "BrandId": 5,
+        "ModelId": 7624668,
+        "IsOutlet": false,
+        "IsAvailableForNewComer": false,
+        "IsDoubleSize": false,
+        "CategoryName": "Şapka-Erkek",
+        "Variant": null,
+        "ProductGroup": "Erkek",
+        "DiscountDate": null,
+        "Campaigns": {
+            "1": true
+        },
+        "Badges": [],
+        "CampaignBadges": [],
+        "RankSecond": 0.0,
+        "OptionColorCount": 1,
+        "ImageUrlList": [
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl-91-71-92-185_5.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl-91-71-92-185_6.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7624668/v1/l_20251-s57920z8-cvl_a2.jpg"
+        ],
+        "ReviewCount": 0,
+        "AvgScore": 0.0,
+        "BunsarSearchTagList": null,
+        "MixAndMatchActiveFlag": false,
+        "OptionSpecialProperty": 0,
+        "OptionRef": 3329639,
+        "SubTitleDescription": null,
+        "CampaignPrice": 0.0,
+        "BrandPropertyDescription": null,
+        "SupplierId": 1,
+        "StoreName": "LC Waikiki",
+        "MannequinCode": 0,
+        "UrunOptionSizeRefList": null,
+        "Supplier": null
+    },
+    {
+        "Title": "Erkek Güneş Gözlüğü",
+        "ProductDescription": null,
+        "TitleIsNotAutoGenerate": false,
+        "PrependOptionColor": false,
+        "ImageUrl": "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a.jpg",
+        "Brand": "LCW ACCESSORIES",
+        "SubBrand": null,
+        "CurrentPrice": 279.99,
+        "OldPrice": 279.99,
+        "MainCategoryTree": {
+            "Level1": {
+                "Level": 1,
+                "CategoryUniqueId": 2,
+                "AttributeId": 10,
+                "LevelValue": "Erkek"
+            },
+            "Level2": {
+                "Level": 2,
+                "CategoryUniqueId": 25,
+                "AttributeId": 57796,
+                "LevelValue": "Aksesuar"
+            },
+            "Level3": {
+                "Level": 3,
+                "CategoryUniqueId": 179,
+                "AttributeId": 39,
+                "LevelValue": "Güneş Gözlüğü-Erkek"
+            },
+            "Level4": [
+                {
+                    "Level": 4,
+                    "CategoryUniqueId": 2405,
+                    "AttributeId": 232,
+                    "LevelValue": "Güneş Gözlüğü"
+                }
+            ]
+        },
+        "BreadCrump": {
+            "Level1": "Erkek",
+            "Level2": "Aksesuar",
+            "Level3": "Güneş Gözlüğü-Erkek",
+            "Level4": "Güneş Gözlüğü"
+        },
+        "LowestPriceInLastMonth": 279.99,
+        "IsDiscounted": false,
+        "IsNew": false,
+        "GaSelectItem": "{\"event\":\"select_item\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"items\":[{\"item_id\":\"4383259\",\"item_name\":\"Erkek Gunes Gozlugu\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":6,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"gunes gozlugu-erkek\",\"item_category4\":\"gunes gozlugu\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S5FQ90Z4-M0T\",\"location_id\":\"\",\"price\":279.99,\"quantity\":1,\"dimension1\":\"S5FQ90Z4-M0T\",\"dimension2\":\"\",\"dimension3\":\"M0T\",\"dimension4\":\"7779251\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"gunes gozlugu\",\"dimension8\":\"erkek / aksesuar / gunes gozlugu-erkek / gunes gozlugu\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S5FQ90Z4\",\"dimension12\":\"279.99\",\"dimension13\":\"1\",\"dimension14\":\"3\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"select_item\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4AddToWishListEvent": "{\"event\":\"add_to_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":279.99,\"items\":[{\"item_id\":\"4383259\",\"item_name\":\"Erkek Gunes Gozlugu\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":6,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"gunes gozlugu-erkek\",\"item_category4\":\"gunes gozlugu\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S5FQ90Z4-M0T\",\"location_id\":\"\",\"price\":279.99,\"quantity\":1,\"dimension1\":\"S5FQ90Z4-M0T\",\"dimension2\":\"\",\"dimension3\":\"M0T\",\"dimension4\":\"7779251\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"gunes gozlugu\",\"dimension8\":\"erkek / aksesuar / gunes gozlugu-erkek / gunes gozlugu\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S5FQ90Z4\",\"dimension12\":\"279.99\",\"dimension13\":\"1\",\"dimension14\":\"3\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"add_to_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "Ga4RemoveFromWishListEvent": "{\"event\":\"remove_from_wishlist\",\"lcw_event_version\":1.0,\"ecommerce\":{\"currency\":\"TRY\",\"value\":279.99,\"items\":[{\"item_id\":\"4383259\",\"item_name\":\"Erkek Gunes Gozlugu\",\"affiliation\":\"LC Waikiki\",\"coupon\":\"\",\"discount\":0.0,\"index\":6,\"item_brand\":\"LCW ACCESSORIES\",\"item_category\":\"erkek\",\"item_category2\":\"aksesuar\",\"item_category3\":\"gunes gozlugu-erkek\",\"item_category4\":\"gunes gozlugu\",\"item_category5\":\"lc waikiki\",\"item_list_id\":\"/slim-fit-dik-yaka-kapusonlu-reflektorlu-erkek-sisme-mont-gri-o-1428165|combine|cm_vc=lcw.com:pr_productwecomb\",\"item_list_name\":\"CombineItems\",\"item_variant\":\"S5FQ90Z4-M0T\",\"location_id\":\"\",\"price\":279.99,\"quantity\":1,\"dimension1\":\"S5FQ90Z4-M0T\",\"dimension2\":\"\",\"dimension3\":\"M0T\",\"dimension4\":\"7779251\",\"dimension5\":\"https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a.jpg\",\"dimension6\":\"0\",\"dimension7\":\"gunes gozlugu\",\"dimension8\":\"erkek / aksesuar / gunes gozlugu-erkek / gunes gozlugu\",\"dimension9\":\"0\",\"dimension10\":\"0.00\",\"dimension11\":\"S5FQ90Z4\",\"dimension12\":\"279.99\",\"dimension13\":\"1\",\"dimension14\":\"3\",\"dimension15\":\"\",\"dimension16\":\"\",\"dimension17\":\"\",\"dimension18\":\"\",\"dimension19\":\"\",\"dimension20\":\"\"}],\"event_name\":\"remove_from_wishlist\"},\"languageCode\":\"Tr\",\"countryCode\":\"TR\"}",
+        "CreateDate": null,
+        "Url": "/erkek-gunes-gozlugu-karisik-o-4383259",
+        "OptionId": 4383259,
+        "CurrencyCode": "TL",
+        "Stock": 15,
+        "Products": [
+            {
+                "ProductId": 17894840,
+                "UrunOptionSizeRef": 15935748,
+                "Stock": 15,
+                "AvailableStock": 0,
+                "Size": {
+                    "SizeId": 13929,
+                    "Value": "Standart",
+                    "ValueKey": null,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomId": 0,
+                    "PomValue": null,
+                    "DisplayOrder": 1,
+                    "Height": null
+                },
+                "Height": null,
+                "PomHeight": {
+                    "OptionId": 4383259,
+                    "HeightSizeId": 0,
+                    "HeightValue": 0.0,
+                    "PomSizeId": 0,
+                    "PomSizeName": null,
+                    "SizeValue": "Standart",
+                    "HeightSizeValue": null
+                },
+                "ProductBadge": null,
+                "ProductCampaignBadge": {
+                    "ProductId": 15935748,
+                    "SalePrice": 279.99,
+                    "SalePriceWithCurrency": "279,99 TL",
+                    "ProductBadges": []
+                }
+            }
+        ],
+        "AvailableStock": 0,
+        "DisplayOrder": 0,
+        "Color": null,
+        "ColorId": 0,
+        "RenkKod": "M0T",
+        "OzelKod1": "S5FQ90Z4",
+        "ModelName": null,
+        "Rank": 0.0,
+        "MainColorName": null,
+        "DiscountRatio": 0,
+        "ProductGroupId": 1,
+        "GenderId": 1,
+        "Gender": "Erkek",
+        "CategoryId": 39,
+        "BrandId": 5,
+        "ModelId": 7779251,
+        "IsOutlet": false,
+        "IsAvailableForNewComer": false,
+        "IsDoubleSize": false,
+        "CategoryName": "Güneş Gözlüğü-Erkek",
+        "Variant": null,
+        "ProductGroup": "Erkek",
+        "DiscountDate": null,
+        "Campaigns": {
+            "1": true
+        },
+        "Badges": null,
+        "CampaignBadges": [],
+        "RankSecond": 0.0,
+        "OptionColorCount": 1,
+        "ImageUrlList": [
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a1.jpg",
+            "https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20251/7779251/v1/l_20251-s5fq90z4-m0t_a2.jpg"
+        ],
+        "ReviewCount": 0,
+        "AvgScore": 0.0,
+        "BunsarSearchTagList": null,
+        "MixAndMatchActiveFlag": false,
+        "OptionSpecialProperty": 0,
+        "OptionRef": 3406588,
+        "SubTitleDescription": null,
+        "CampaignPrice": 0.0,
+        "BrandPropertyDescription": null,
+        "SupplierId": 1,
+        "StoreName": "LC Waikiki",
+        "MannequinCode": 0,
+        "UrunOptionSizeRefList": null,
+        "Supplier": null
+    }
+]
