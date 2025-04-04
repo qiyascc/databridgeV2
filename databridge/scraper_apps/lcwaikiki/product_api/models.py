@@ -1,9 +1,12 @@
 from django.db import models
+from config.models import CityConfiguration
 
 class Product(models.Model):
     url = models.URLField(max_length=255, unique=True)
     title = models.CharField(max_length=255, blank=True, null=True)
     category = models.CharField(max_length=255, blank=True, null=True)
+    description = models.TextField(blank=True, null=True)
+    product_code = models.CharField(max_length=35, blank=True, null=True)
     color = models.CharField(max_length=100, blank=True, null=True)
     price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     discount_ratio = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
@@ -11,6 +14,12 @@ class Product(models.Model):
     images = models.JSONField(default=list)
     timestamp = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=50, default="pending")
+
+    def save(self, *args, **kwargs):
+        from config.utils import apply_price_configuration
+        if self.price:
+            self.price = apply_price_configuration(self.price)
+        super().save(*args, **kwargs)
     
     def __str__(self):
         return self.url or "Product"
@@ -49,7 +58,7 @@ class City(models.Model):
 class Store(models.Model):
     store_code = models.CharField(max_length=20, primary_key=True)
     store_name = models.CharField(max_length=200)
-    city = models.ForeignKey(City, on_delete=models.CASCADE, related_name='stores')
+    city = models.ForeignKey(CityConfiguration, on_delete=models.CASCADE, related_name='stores')
     store_county = models.CharField(max_length=100, blank=True, null=True)
     store_phone = models.CharField(max_length=20, blank=True, null=True)
     address = models.TextField(blank=True, null=True)

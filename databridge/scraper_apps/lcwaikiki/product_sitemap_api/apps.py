@@ -29,7 +29,7 @@ class ProductSitemapConfig(AppConfig):
             )
             
             # İlk başlangıçta veriyi çek
-            post_migrate.connect(self.initial_fetch, sender=self)
+            # post_migrate.connect(self.initial_fetch, sender=self)
             
             # Scheduler'ı başlat
             scheduler.start()

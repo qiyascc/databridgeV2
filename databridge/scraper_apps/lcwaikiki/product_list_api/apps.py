@@ -26,7 +26,7 @@ class ProductSitemapConfig(AppConfig):
                 # next_run_time=datetime.now()
             )
             
-            post_migrate.connect(self.initial_fetch, sender=self)
+            # post_migrate.connect(self.initial_fetch, sender=self)
             
             scheduler.start()
         except Exception as e:

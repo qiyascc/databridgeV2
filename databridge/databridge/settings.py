@@ -31,6 +31,14 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
+    "unfold",
+    "unfold_app", # Third part but admin
+    "unfold.contrib.filters",  # optional, if special filters are needed
+    "unfold.contrib.forms",  # optional, if special form elements are needed
+    "unfold.contrib.inlines",  # optional, if special inlines are needed
+    "unfold.contrib.import_export",  # optional, if django-import-export package is used
+    "unfold.contrib.guardian",  # optional, if django-guardian package is used
+    "unfold.contrib.simple_history",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -39,6 +47,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     # Third part Apps
+    "django_celery_beat",
     "rest_framework",
     "django_apscheduler",
 
@@ -49,6 +58,9 @@ INSTALLED_APPS = [
     "scraper_apps.lcwaikiki.product_sitemap_api",
     "scraper_apps.lcwaikiki.product_list_api",
     "scraper_apps.lcwaikiki.product_api",
+
+    "markets.trendyol_app",
+    "config",
 ]
 
 MIDDLEWARE = [
@@ -62,11 +74,16 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "databridge.urls"
-
+CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Or your preferred broker
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'UTC'
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -240,3 +257,8 @@ PROXY_LIST = [
 ]
 
 CURRENTLY_API_VERSION = "v1"
+
+UNFOLD = {
+    "DASHBOARD_CALLBACK": "unfold_app.views.dashboard_callback",
+}
+

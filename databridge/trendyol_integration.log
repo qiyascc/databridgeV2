@@ -1,0 +1,147 @@
+2025-04-04 09:27:33,799 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:27:33,799 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:27:38,222 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:27:40,898 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:27:41,161 - __main__ - INFO - Product creation initiated. Batch ID: 2ca01ab2-0992-45e3-847c-e1e083e36a2c-1743758861
+2025-04-04 09:27:41,359 - __main__ - INFO - Batch status: {
+  "batchRequestId": "2ca01ab2-0992-45e3-847c-e1e083e36a2c-1743758861",
+  "items": [],
+  "status": "IN_PROGRESS",
+  "creationDate": 1743744461410,
+  "lastModification": 1743744461410,
+  "sourceType": "API",
+  "itemCount": 1,
+  "failedItemCount": 0,
+  "batchRequestType": "ProductV2OnBoarding",
+  "notes": null
+}
+2025-04-04 09:28:52,954 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:28:52,954 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:28:57,068 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:28:59,951 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:29:00,164 - __main__ - WARNING - Attempt 1 failed, retrying...
+2025-04-04 09:29:01,511 - __main__ - WARNING - Attempt 2 failed, retrying...
+2025-04-04 09:29:48,192 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:29:48,192 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:29:52,393 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:29:55,679 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:29:55,907 - __main__ - INFO - Product creation initiated. Batch ID: 97b854bc-a584-4d1c-8c7c-d32247c9f60c-1743758996
+2025-04-04 09:29:56,096 - __main__ - INFO - Batch status: {
+  "batchRequestId": "97b854bc-a584-4d1c-8c7c-d32247c9f60c-1743758996",
+  "items": [],
+  "status": "IN_PROGRESS",
+  "creationDate": 1743744596166,
+  "lastModification": 1743744596166,
+  "sourceType": "API",
+  "itemCount": 1,
+  "failedItemCount": 0,
+  "batchRequestType": "ProductV2OnBoarding",
+  "notes": null
+}
+2025-04-04 09:31:12,765 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:31:12,767 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:31:16,649 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:31:19,482 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:31:19,691 - __main__ - WARNING - Attempt 1 failed, retrying...
+2025-04-04 09:31:23,474 - __main__ - WARNING - Attempt 2 failed, retrying...
+2025-04-04 09:33:31,918 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:33:31,921 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:33:36,074 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:33:39,175 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:33:39,375 - __main__ - WARNING - Attempt 1 failed, retrying...
+2025-04-04 09:33:40,591 - __main__ - WARNING - Attempt 2 failed, retrying...
+2025-04-04 09:34:36,947 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:34:36,949 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:34:41,251 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:34:45,204 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:34:45,427 - __main__ - INFO - Product creation initiated. Batch ID: 86bd3cd6-fdab-40b8-a08f-cd5ee2db0280-1743759285
+2025-04-04 09:34:45,615 - __main__ - INFO - Batch status: {
+  "batchRequestId": "86bd3cd6-fdab-40b8-a08f-cd5ee2db0280-1743759285",
+  "items": [],
+  "status": "IN_PROGRESS",
+  "creationDate": 1743744885681,
+  "lastModification": 1743744885681,
+  "sourceType": "API",
+  "itemCount": 1,
+  "failedItemCount": 0,
+  "batchRequestType": "ProductV2OnBoarding",
+  "notes": null
+}
+2025-04-04 09:36:06,133 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:36:06,133 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:36:10,114 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:36:15,495 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:36:16,334 - __main__ - WARNING - Attempt 1 failed, retrying...
+2025-04-04 09:36:17,576 - __main__ - WARNING - Attempt 2 failed, retrying...
+2025-04-04 09:36:20,736 - __main__ - ERROR - API request failed after 3 attempts: 400 Client Error: Bad Request for url: https://apigw.trendyol.com/integration/product/sellers/535623/products
+2025-04-04 09:36:20,736 - __main__ - ERROR - Product creation failed: 400 Client Error: Bad Request for url: https://apigw.trendyol.com/integration/product/sellers/535623/products
+2025-04-04 09:36:20,736 - __main__ - ERROR - Application error: 400 Client Error: Bad Request for url: https://apigw.trendyol.com/integration/product/sellers/535623/products
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\GitHub\databridgeV2\unused_sample_files\trendyol_api.py", line 363, in main
+    batch_id = product_manager.create_product(product)
+  File "C:\Users\HP\Documents\GitHub\databridgeV2\unused_sample_files\trendyol_api.py", line 271, in create_product
+    response = self.api.post(f"product/sellers/{self.api.config.seller_id}/products", payload)
+  File "C:\Users\HP\Documents\GitHub\databridgeV2\unused_sample_files\trendyol_api.py", line 88, in post
+    return self._make_request('POST', endpoint, json=data)
+  File "C:\Users\HP\Documents\GitHub\databridgeV2\unused_sample_files\trendyol_api.py", line 75, in _make_request
+    response.raise_for_status()
+  File "C:\Users\HP\Documents\GitHub\databridgeV2\venv\lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://apigw.trendyol.com/integration/product/sellers/535623/products
+2025-04-04 09:36:59,194 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:36:59,194 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:37:03,511 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:37:07,784 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:37:08,011 - __main__ - INFO - Product creation initiated. Batch ID: d11fbbd0-a519-48fa-aca5-a254f9cc83ca-1743759428
+2025-04-04 09:37:08,189 - __main__ - INFO - Batch status: {
+  "batchRequestId": "d11fbbd0-a519-48fa-aca5-a254f9cc83ca-1743759428",
+  "items": [],
+  "status": "IN_PROGRESS",
+  "creationDate": 1743745028271,
+  "lastModification": 1743745028271,
+  "sourceType": "API",
+  "itemCount": 1,
+  "failedItemCount": 0,
+  "batchRequestType": "ProductV2OnBoarding",
+  "notes": null
+}
+2025-04-04 09:38:30,932 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:38:30,932 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 09:38:35,234 - __main__ - INFO - Starting product creation process...
+2025-04-04 09:38:39,377 - __main__ - INFO - Submitting product creation request...
+2025-04-04 09:38:39,638 - __main__ - INFO - Product creation initiated. Batch ID: 26afdb65-7d84-4269-a6f4-d52010754cb6-1743759519
+2025-04-04 09:38:40,245 - __main__ - INFO - Batch status: {
+  "batchRequestId": "26afdb65-7d84-4269-a6f4-d52010754cb6-1743759519",
+  "items": [],
+  "status": "IN_PROGRESS",
+  "creationDate": 1743745119892,
+  "lastModification": 1743745119892,
+  "sourceType": "API",
+  "itemCount": 1,
+  "failedItemCount": 0,
+  "batchRequestType": "ProductV2OnBoarding",
+  "notes": null
+}
+2025-04-04 09:44:27,262 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 09:44:27,262 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 10:01:26,669 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 10:01:26,669 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 10:01:31,041 - __main__ - INFO - Starting product creation process...
+2025-04-04 10:01:39,429 - __main__ - INFO - Submitting product creation request...
+2025-04-04 10:01:40,459 - __main__ - INFO - Product creation initiated. Batch ID: b3a88711-86aa-4f25-b59b-b838f3667aad-1743760900
+2025-04-04 10:01:40,660 - __main__ - INFO - Batch status: {
+  "batchRequestId": "b3a88711-86aa-4f25-b59b-b838f3667aad-1743760900",
+  "items": [],
+  "status": "IN_PROGRESS",
+  "creationDate": 1743746500267,
+  "lastModification": 1743746500267,
+  "sourceType": "API",
+  "itemCount": 1,
+  "failedItemCount": 0,
+  "batchRequestType": "ProductV2OnBoarding",
+  "notes": null
+}
+2025-04-04 10:03:26,420 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 10:03:26,420 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+2025-04-04 10:16:15,769 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 10:16:15,771 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: emrecan/bert-base-turkish-cased-mean-nli-stsb-tr

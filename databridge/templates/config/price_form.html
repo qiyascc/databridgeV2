@@ -1,0 +1,21 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Price Configuration</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+    
+    <div class="mt-4">
+        <h4>Current Rules:</h4>
+        <ul>
+            <li>If product price < {{ object.PRICE_THRESHOLD }} TRY → Multiply by {{ object.BELOW_THRESHOLD_MULTIPLIER }}</li>
+            <li>If product price ≥ {{ object.PRICE_THRESHOLD }} TRY → Multiply by {{ object.ABOVE_THRESHOLD_MULTIPLIER }}</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

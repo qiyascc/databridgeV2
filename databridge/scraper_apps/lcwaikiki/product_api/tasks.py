@@ -10,6 +10,7 @@ import queue
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 
 from django.conf import settings
 from django.utils import timezone
@@ -211,6 +212,67 @@ class ProductScraper:
         except Exception as e:
             logger.error(f"Error extracting JSON data: {str(e)}")
             return None
+        
+    def get_meta_content(self, meta_tags, name):
+        """Extract content from meta tags"""
+        for tag in meta_tags:
+            name_match = re.search(r'name=["\']?([^"\'>\s]+)', tag, re.IGNORECASE)
+            property_match = re.search(r'property=["\']?([^"\'>\s]+)', tag, re.IGNORECASE)
+            content_match = re.search(r'content=["\']?([^"\'>]+)', tag, re.IGNORECASE)
+            
+            tag_name = name_match.group(1) if name_match else property_match.group(1) if property_match else None
+            content = content_match.group(1) if content_match else ''
+            
+            if tag_name == name:
+                return content
+        return ''
+        
+    def extract_description(self, html_content):
+        """Extract product description from HTML with XPath"""
+        try:
+            soup = BeautifulSoup(html_content, 'html.parser')
+
+            # This is an approximation of XPath: /html/body/div[3]/div/div[4]/div[1]/div[2]/div[2]/div[2]/div[6]/div/div/div/div[1]/div[2]
+            # We'll use CSS selectors instead, but with a fallback approach to find the product description
+
+            # First attempt: Try to find by specific class names commonly used for product descriptions
+            description_div = soup.select_one('#collapseOne > div')
+
+            # If not found, try broader approach
+            if not description_div:
+                main_content = soup.select_one('.product-detail-container, .product-details, .product-content')
+                if main_content:
+                    # Look for description section within main content
+                    description_div = main_content.select_one('div.detail-desc, div.description, div.product-description')
+
+            # If still not found, fall back to generic approach based on content structure
+            if not description_div:
+                for div in soup.select('div.row div.col div'):
+                    if len(div.find_all('p')) > 0 or len(div.get_text().strip()) > 100:
+                        # This might be the description if it has paragraphs or substantial text
+                        description_div = div
+                        break
+
+            if description_div:
+                # Remove the first h5 tag inside description_div, if it exists
+                h5_tag = description_div.find('h5')
+                if h5_tag:
+                    h5_tag.decompose()
+
+                # Remove all p tags that contain "Satıcı:" or "Marka:"
+                for p_tag in description_div.find_all('p'):
+                    if "Satıcı:" in p_tag.get_text() or "Marka:" in p_tag.get_text():
+                        p_tag.decompose()
+
+                # Return HTML content as string
+                return str(description_div)
+            else:
+                logger.warning("Product description div not found")
+                return ""
+
+        except Exception as e:
+            logger.error(f"Error extracting product description: {str(e)}")
+            return ""
 
     def parse_product(self, response):
         """Parse product data from response"""
@@ -218,18 +280,26 @@ class ProductScraper:
             product_url = response.url
             
             json_data = self.extract_json_data(response)
+            meta_tags = re.findall(r'<meta\s+([^>]+)>', response.text, re.IGNORECASE)
             if not json_data:
                 logger.error(f"No JSON data found for {product_url}")
                 return None
 
             product_sizes = json_data.get('ProductSizes', [])
             price = float(str(json_data.get('ProductPrices', {}).get('Price', '0')).replace(' TL', '').replace(',', '.').strip() or 0)
-
+            product_code = self.get_meta_content(meta_tags, 'ProductCodeColorCode')
+            
+            # Extract description from HTML using the provided XPath equivalent
+            from config.utils import apply_price_configuration
+            price = apply_price_configuration(price)
+            description = self.extract_description(response.text)
             
             product_data = {
                 "url": product_url,
                 "title": json_data.get('PageTitle', ''),
                 "category": json_data.get('CategoryName', ''),
+                "description": description,
+                "product_code": product_code, 
                 "color": json_data.get('Color', ''),
                 "price": price,
                 "discount_ratio": json_data.get('ProductPrices', {}).get('DiscountRatio', 0),
@@ -412,6 +482,8 @@ def process_product(url, thread_id=0):
                 defaults={
                     "title": product_data['title'],
                     "category": product_data['category'],
+                    "description": product_data['description'],
+                    "product_code": product_data['product_code'],
                     "color": product_data['color'],
                     "price": product_data['price'],
                     "discount_ratio": product_data['discount_ratio'],
@@ -461,10 +533,13 @@ def process_product(url, thread_id=0):
                         )
                         
                         # Create stock entry
+                        from config.utils import apply_stock_configuration
+                        original_stock = store_data['stock']
+                        mapped_stock = apply_stock_configuration(original_stock)
                         SizeStoreStock.objects.update_or_create(
                             product_size=product_size,
                             store=store,
-                            defaults={"stock": store_data['stock']}
+                            defaults={"stock": mapped_stock}
                         )
         
         logger.info(f"Thread {thread_id}: Successfully processed product {url}")

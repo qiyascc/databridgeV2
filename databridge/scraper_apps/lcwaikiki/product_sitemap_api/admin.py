@@ -1,12 +1,13 @@
 from django.contrib import admin
 from .models import SitemapSource, SitemapUrl
+from unfold.admin import ModelAdmin, StackedInline, TabularInline
 
-class SitemapUrlInline(admin.TabularInline):
+class SitemapUrlInline(TabularInline):
     model = SitemapUrl
     extra = 0
 
 @admin.register(SitemapSource)
-class SitemapSourceAdmin(admin.ModelAdmin):
+class SitemapSourceAdmin(ModelAdmin):
     list_display = ('url', 'last_fetch')
     inlines = [SitemapUrlInline]
     

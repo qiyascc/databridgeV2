@@ -21,11 +21,11 @@ class ProductApiConfig(AppConfig):
                 trigger=IntervalTrigger(hours=22),
                 id='product_data_and_update_job',
                 max_instances=10,
-                replace_existing=True,
-                
+                replace_existing=True
+                # next_run_time=datetime.now() + timedelta(seconds=5)
             )
             
-            post_migrate.connect(self.initial_update, sender=self)
+            # post_migrate.connect(self.initial_update, sender=self)
             
             scheduler.start()
         except Exception as e:

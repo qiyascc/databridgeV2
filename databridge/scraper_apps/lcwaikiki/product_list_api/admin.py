@@ -1,7 +1,8 @@
 from django.contrib import admin
 from .models import ProductListSource, ProductUrl
+from unfold.admin import ModelAdmin, StackedInline, TabularInline
 
-class ProductUrlInline(admin.TabularInline):
+class ProductUrlInline(TabularInline):
     model = ProductUrl
     extra = 0
     readonly_fields = ('url', 'change_frequency', 'priority', 'lcw_last_modification', 'system_last_modification')
@@ -12,7 +13,7 @@ class ProductUrlInline(admin.TabularInline):
         return False
 
 @admin.register(ProductListSource)
-class ProductListSourceAdmin(admin.ModelAdmin):
+class ProductListSourceAdmin(ModelAdmin):
     list_display = ('url', 'last_modification', 'last_fetch')
     inlines = [ProductUrlInline]
     
@@ -26,7 +27,7 @@ class ProductListSourceAdmin(admin.ModelAdmin):
         return custom_urls + urls
 
 @admin.register(ProductUrl)
-class ProductUrlAdmin(admin.ModelAdmin):
+class ProductUrlAdmin(ModelAdmin):
     list_display = ('url', 'source', 'change_frequency', 'priority', 'lcw_last_modification', 'system_last_modification')
     list_filter = ('source', 'change_frequency', 'priority', 'lcw_last_modification')
     search_fields = ('url',)

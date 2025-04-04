@@ -14,3 +14,5 @@ urlpatterns = [
     path('cities/', views.city_list, name='city_list'),
     path('stores/', views.store_list, name='store_list'),
 ]
+
+# Fiyat kof yanina trednyola ekleme olayini ekle

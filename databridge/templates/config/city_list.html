@@ -1,0 +1,33 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>City Configurations</h1>
+    <a href="{% url 'city_config_add' %}" class="btn btn-primary mb-3">Add City</a>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for city in cities %}
+            <tr>
+                <td>{{ city.get_city_id_display }}</td>
+                <td>
+                    <span class="badge {% if city.is_active %}bg-success{% else %}bg-secondary{% endif %}">
+                        {% if city.is_active %}Active{% else %}Inactive{% endif %}
+                    </span>
+                </td>
+                <td>
+                    <a href="{% url 'city_config_edit' city.city_id %}" class="btn btn-sm btn-warning">Edit</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

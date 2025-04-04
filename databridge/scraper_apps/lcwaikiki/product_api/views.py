@@ -12,8 +12,9 @@ from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView
 
 from scraper_apps.lcwaikiki.product_api.models import (
-    Product, ProductSize, City, Store, SizeStoreStock
+    Product, ProductSize, Store, SizeStoreStock
 )
+from config.models import CityConfiguration as City
 from scraper_apps.lcwaikiki.product_api.serializers import (
     ProductSerializer, ProductListSerializer
 )

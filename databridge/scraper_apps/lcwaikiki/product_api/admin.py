@@ -3,10 +3,15 @@ from django.utils.html import format_html
 from django.db.models import Count, Sum
 from django.http import HttpResponseRedirect
 from django.urls import path
+from unfold.admin import ModelAdmin, StackedInline, TabularInline
+import requests
+import json
+from django.contrib import messages
 
-from .models import Product, ProductSize, City, Store, SizeStoreStock
+from .models import Product, ProductSize, Store, SizeStoreStock
+from config.models import CityConfiguration as City
 
-class ProductSizeInline(admin.TabularInline):
+class ProductSizeInline(TabularInline):
     model = ProductSize
     extra = 0
     fields = ('size_name', 'size_id', 'size_general_stock', 'store_count', 'city_count')
@@ -28,21 +33,21 @@ class ProductSizeInline(admin.TabularInline):
         return obj.city_count
     city_count.short_description = 'Cities'
 
-class SizeStoreStockInline(admin.TabularInline):
+class SizeStoreStockInline(TabularInline):
     model = SizeStoreStock
     extra = 0
     fields = ('store', 'stock')
     autocomplete_fields = ('store',)
 
 @admin.register(Product)
-class ProductAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title_display', 'category', 'color', 'price', 'discount_ratio', 
+class ProductAdmin(ModelAdmin):
+    list_display = ('id', 'title_display', 'category', 'product_code', 'color', 'price', 'discount_ratio', 
                     'in_stock', 'size_count', 'store_count', 'city_count', 'timestamp', 'status')
-    list_filter = ('category', 'color', 'in_stock', 'status', 'timestamp')
-    search_fields = ('url', 'title', 'category', 'color')
+    list_filter = ('category', 'color', 'in_stock', 'status', 'timestamp',)
+    search_fields = ('url', 'title', 'category', 'color', 'product_code')
     inlines = [ProductSizeInline]
-    readonly_fields = ('timestamp', 'preview_images', 'store_availability_summary')
-    actions = ['refresh_product_data']
+    readonly_fields = ('timestamp', 'preview_images', 'store_availability_summary', 'description_display')
+    actions = ['refresh_product_data', 'send_to_trendyol']
     
     def get_queryset(self, request):
         queryset = super().get_queryset(request)
@@ -53,6 +58,161 @@ class ProductAdmin(admin.ModelAdmin):
         )
         return queryset
     
+    def send_to_trendyol(self, request, queryset):
+        """Send selected products to Trendyol API"""
+        success_count = 0
+        error_count = 0
+        
+        # Check if we need to batch or send all together
+        product_count = queryset.count()
+        
+        if product_count <= 2:
+            # Process all products in a single API call
+            products_data = []
+            
+            for product in queryset:
+                # Extract product code parts
+                product_code = product.product_code.strip() if product.product_code else ""
+                barcode = "BRK-" + product_code.split('-', 1)[1] if '-' in product_code else "BRK-" + product_code
+                product_main_id = "PMI-" + product_code
+                
+                # Get first image URL if available
+                image_url = product.images[0] if product.images and len(product.images) > 0 else ""
+                
+                # Calculate sale price (if discount_ratio is available)
+                price = float(product.price) if product.price else 0.0
+                sale_price = price
+                if product.discount_ratio and product.discount_ratio > 0:
+                    sale_price = round(price * (1 - product.discount_ratio / 100), 2)
+                total_quantity = ProductSize.objects.filter(product=product).aggregate(
+                    total=Sum('size_general_stock')
+                )['total'] or 0
+                
+                # Prepare data for Trendyol
+                product_data = {
+                    "barcode": barcode,
+                    "title": product.title or "",
+                    "product_main_id": product_main_id,
+                    "brand_name": "LC Waikiki",
+                    "category_name": product.category or "",
+                    "quantity": total_quantity,
+                    "stock_code": product_code,
+                    "price": str(price),
+                    "sale_price": str(sale_price),
+                    "description": product.description or "",
+                    "image_url": image_url,
+                    "vat_rate": 10,
+                    "currency_type": "TRY",
+                }
+                
+                products_data.append(product_data)
+            
+            # Create payload with items array
+            payload = {
+                "items": products_data
+            }
+            
+            try:
+                # Send data to Trendyol API
+                response = requests.post(
+                    'http://127.0.0.1:8000/api/v1/markets/products/',
+                    json=payload,
+                    headers={'Content-Type': 'application/json'}
+                )
+                
+                if response.status_code in [200, 201]:
+                    success_count = len(products_data)
+                else:
+                    error_count = len(products_data)
+                    self.message_user(
+                        request, 
+                        f"Error sending {len(products_data)} products: {response.text}", 
+                        level=messages.ERROR
+                    )
+            
+            except Exception as e:
+                error_count = len(products_data)
+                self.message_user(
+                    request, 
+                    f"Error sending products: {str(e)}", 
+                    level=messages.ERROR
+                )
+        
+        else:
+            # Process products individually if more than 200
+            for product in queryset:
+                # Extract product code parts
+                product_code = product.product_code.strip() if product.product_code else ""
+                barcode = "BRK-" + product_code.split('-', 1)[0] if '-' in product_code else "BRK-" + product_code
+                product_main_id = "PMI-" + product_code
+                
+                # Get first image URL if available
+                image_url = product.images[0] if product.images and len(product.images) > 0 else ""
+                
+                # Calculate sale price (if discount_ratio is available)
+                price = float(product.price) if product.price else 0.0
+                sale_price = price
+                if product.discount_ratio and product.discount_ratio > 0:
+                    sale_price = round(price * (1 - product.discount_ratio / 100), 2)
+                
+                # Prepare data for Trendyol
+                trendyol_data = {
+                    "barcode": barcode,
+                    "title": product.title or "",
+                    "product_main_id": product_main_id,
+                    "brand_name": "LC Waikiki",
+                    "category_name": product.category or "",
+                    "quantity": product.sizes.aggregate(total_stock=Sum('size_general_stock'))['total_stock'] or 0,
+                    "stock_code": product_code,
+                    "price": str(price),
+                    "sale_price": str(sale_price),
+                    "description": product.description or "",
+                    "image_url": image_url,
+                    "vat_rate": 10,
+                    "currency_type": "TRY",
+                }
+                
+                try:
+                    # Send data to Trendyol API
+                    response = requests.post(
+                        'http://127.0.0.1:8000/api/v1/markets/products/',
+                        json=trendyol_data,
+                        headers={'Content-Type': 'application/json'}
+                    )
+                    
+                    if response.status_code in [200, 201]:
+                        success_count += 1
+                    else:
+                        error_count += 1
+                        self.message_user(
+                            request, 
+                            f"Error sending product {product.id}: {response.text}", 
+                            level=messages.ERROR
+                        )
+                
+                except Exception as e:
+                    error_count += 1
+                    self.message_user(
+                        request, 
+                        f"Error sending product {product.id}: {str(e)}", 
+                        level=messages.ERROR
+                    )
+        
+        if success_count > 0:
+            self.message_user(
+                request, 
+                f"Successfully sent {success_count} products to Trendyol.", 
+                level=messages.SUCCESS
+            )
+        
+        if error_count > 0:
+            self.message_user(
+                request, 
+                f"Failed to send {error_count} products to Trendyol. Check details above.", 
+                level=messages.WARNING
+            )
+
+    send_to_trendyol.short_description = "Send selected products to Trendyol"
     def title_display(self, obj):
         if obj.title:
             display_title = obj.title[:50] + '...' if len(obj.title) > 50 else obj.title
@@ -74,6 +234,13 @@ class ProductAdmin(admin.ModelAdmin):
         html += '</div>'
         return format_html(html)
     preview_images.short_description = 'Product Images'
+
+    def description_display(self, obj):
+        if obj.description:
+            return format_html(obj.description)
+        return "-"
+    
+    description_display.short_description = "Description"
     
     def refresh_product_data(self, request, queryset):
         from .tasks import process_product
@@ -192,7 +359,7 @@ class ProductAdmin(admin.ModelAdmin):
     store_availability_summary.short_description = 'Store Availability'
 
 @admin.register(ProductSize)
-class ProductSizeAdmin(admin.ModelAdmin):
+class ProductSizeAdmin(ModelAdmin):
     list_display = ('id', 'product_title', 'size_name', 'size_id', 'size_general_stock', 'store_count')
     list_filter = ('size_name', 'size_general_stock')  
     search_fields = ('product__title', 'size_name', 'size_id')
@@ -218,31 +385,31 @@ class ProductSizeAdmin(admin.ModelAdmin):
     store_count.short_description = 'Stores'
     store_count.admin_order_field = 'store_count'
 
-@admin.register(City)
-class CityAdmin(admin.ModelAdmin):
-    list_display = ('city_id', 'name', 'store_count', 'product_count')
-    search_fields = ('city_id', 'name')
+# @admin.register(City)
+# class CityAdmin(ModelAdmin):
+#     list_display = ('city_id', 'name', 'store_count', 'product_count')
+#     search_fields = ('city_id', 'name')
     
-    def get_queryset(self, request):
-        queryset = super().get_queryset(request)
-        queryset = queryset.annotate(
-            store_count=Count('stores', distinct=True),
-            product_count=Count('stores__size_stocks__product_size__product', distinct=True)
-        )
-        return queryset
+#     def get_queryset(self, request):
+#         queryset = super().get_queryset(request)
+#         queryset = queryset.annotate(
+#             store_count=Count('stores', distinct=True),
+#             product_count=Count('stores__size_stocks__product_size__product', distinct=True)
+#         )
+#         return queryset
     
-    def store_count(self, obj):
-        return obj.store_count
-    store_count.short_description = 'Stores'
-    store_count.admin_order_field = 'store_count'
+#     def store_count(self, obj):
+#         return obj.store_count
+#     store_count.short_description = 'Stores'
+#     store_count.admin_order_field = 'store_count'
     
-    def product_count(self, obj):
-        return obj.product_count
-    product_count.short_description = 'Products'
-    product_count.admin_order_field = 'product_count'
+#     def product_count(self, obj):
+#         return obj.product_count
+#     product_count.short_description = 'Products'
+#     product_count.admin_order_field = 'product_count'
 
 @admin.register(Store)
-class StoreAdmin(admin.ModelAdmin):
+class StoreAdmin(ModelAdmin):
     list_display = ('store_code', 'store_name', 'city', 'store_county', 'store_phone', 'product_count', 'total_stock')
     list_filter = ('city', 'store_county')
     search_fields = ('store_code', 'store_name', 'store_county', 'store_phone', 'address')
@@ -268,7 +435,7 @@ class StoreAdmin(admin.ModelAdmin):
     total_stock.admin_order_field = 'total_stock'
 
 @admin.register(SizeStoreStock)
-class SizeStoreStockAdmin(admin.ModelAdmin):
+class SizeStoreStockAdmin(ModelAdmin):
     list_display = ('id', 'product_info', 'size_name', 'store_name', 'stock')
     list_filter = ('stock', 'store__city')
     search_fields = ('product_size__product__title', 'product_size__size_name', 'store__store_name')
@@ -295,3 +462,11 @@ class SizeStoreStockAdmin(admin.ModelAdmin):
         return f"{obj.store.store_name} ({obj.store.city.name})"
     store_name.short_description = 'Store'
     store_name.admin_order_field = 'store__store_name'
+
+
+@admin.action(description='Apply price configuration')
+def apply_price_config(modeladmin, request, queryset):
+    from config.utils import apply_price_configuration
+    for product in queryset:
+        product.price = apply_price_configuration(product.price)
+        product.save()

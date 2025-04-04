@@ -1,0 +1,4817 @@
+{
+    "id": 550,
+    "name": "Çorap",
+    "displayName": "Çorap",
+    "categoryAttributes": [
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 880,
+                "name": "Siluet"
+            },
+            "attributeValues": [],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 343,
+                "name": "Cinsiyet"
+            },
+            "attributeValues": [
+                {
+                    "id": 4296,
+                    "name": "Unisex"
+                },
+                {
+                    "id": 4295,
+                    "name": "Kadın / Kız"
+                },
+                {
+                    "id": 4294,
+                    "name": "Erkek"
+                }
+            ],
+            "categoryId": 550,
+            "required": true,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 636,
+                "name": "Teknik"
+            },
+            "attributeValues": [
+                {
+                    "id": 1196873,
+                    "name": "Kağıt ve Karton Bileşen İçeren"
+                },
+                {
+                    "id": 1196872,
+                    "name": "Bonded kumaş"
+                },
+                {
+                    "id": 1196871,
+                    "name": "Kaşe ve Kürk"
+                },
+                {
+                    "id": 1196870,
+                    "name": "Hazır Yaka"
+                },
+                {
+                    "id": 1196869,
+                    "name": "Havlı Kumaş"
+                },
+                {
+                    "id": 1196868,
+                    "name": "Polar"
+                },
+                {
+                    "id": 1196867,
+                    "name": "Yok"
+                },
+                {
+                    "id": 1196866,
+                    "name": "Çıkarılabilir Aksesuar"
+                },
+                {
+                    "id": 1196865,
+                    "name": "Kaz, Ördek ve Kuş Tüyü Dolgulu"
+                },
+                {
+                    "id": 666290,
+                    "name": "Su Bazlı Baskı"
+                },
+                {
+                    "id": 666286,
+                    "name": "Patch Nakış"
+                },
+                {
+                    "id": 666281,
+                    "name": "Reflektör"
+                },
+                {
+                    "id": 666278,
+                    "name": "Kapitone"
+                },
+                {
+                    "id": 666274,
+                    "name": "Aplike Nakış"
+                },
+                {
+                    "id": 666270,
+                    "name": "Dolum"
+                },
+                {
+                    "id": 256013,
+                    "name": "İnci Baskı"
+                },
+                {
+                    "id": 197260,
+                    "name": "Enzim Taş"
+                },
+                {
+                    "id": 197251,
+                    "name": "Asit/Kar/Random Yıkama"
+                },
+                {
+                    "id": 197248,
+                    "name": "Parça Boya"
+                },
+                {
+                    "id": 197241,
+                    "name": "Kanaviçe Nakış"
+                },
+                {
+                    "id": 197230,
+                    "name": "Parça Baskı"
+                },
+                {
+                    "id": 197229,
+                    "name": "Kaplama"
+                },
+                {
+                    "id": 197228,
+                    "name": "Sarma Nakış"
+                },
+                {
+                    "id": 197227,
+                    "name": "Su İtici"
+                },
+                {
+                    "id": 197226,
+                    "name": "Rinse"
+                },
+                {
+                    "id": 197224,
+                    "name": "Taş Baskı"
+                },
+                {
+                    "id": 197223,
+                    "name": "İnce Gauge"
+                },
+                {
+                    "id": 197222,
+                    "name": "Kalın Gauge"
+                },
+                {
+                    "id": 197221,
+                    "name": "Piliseli"
+                },
+                {
+                    "id": 197220,
+                    "name": "ZBK"
+                },
+                {
+                    "id": 197219,
+                    "name": "Eva Nakış"
+                },
+                {
+                    "id": 197218,
+                    "name": "Parça Şardon"
+                },
+                {
+                    "id": 197217,
+                    "name": "Transfer Baskı"
+                },
+                {
+                    "id": 197216,
+                    "name": "Yıkamalı"
+                },
+                {
+                    "id": 197214,
+                    "name": "Vinil Baskı"
+                },
+                {
+                    "id": 197213,
+                    "name": "Havlu Nakış"
+                },
+                {
+                    "id": 197212,
+                    "name": "Payet Nakış"
+                },
+                {
+                    "id": 197210,
+                    "name": "Metraj Baskı"
+                },
+                {
+                    "id": 197208,
+                    "name": "Orta Gauge"
+                },
+                {
+                    "id": 197206,
+                    "name": "Dijital Baskı"
+                },
+                {
+                    "id": 197203,
+                    "name": "Varak Baskı"
+                },
+                {
+                    "id": 197201,
+                    "name": "Mix Nakış"
+                },
+                {
+                    "id": 197199,
+                    "name": "Optik"
+                },
+                {
+                    "id": 197197,
+                    "name": "Flok Baskı"
+                },
+                {
+                    "id": 197136,
+                    "name": "BSN Baskı"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 66,
+                "name": "Paket İçeriği"
+            },
+            "attributeValues": [
+                {
+                    "id": 18659,
+                    "name": "14'lü"
+                },
+                {
+                    "id": 18658,
+                    "name": "13'lü"
+                },
+                {
+                    "id": 18657,
+                    "name": "11'li"
+                },
+                {
+                    "id": 18656,
+                    "name": "9'lu"
+                },
+                {
+                    "id": 18655,
+                    "name": "7'li"
+                },
+                {
+                    "id": 18654,
+                    "name": "5'li"
+                },
+                {
+                    "id": 18653,
+                    "name": "2'li"
+                },
+                {
+                    "id": 1410,
+                    "name": "24'lü"
+                },
+                {
+                    "id": 1408,
+                    "name": "4'lü"
+                },
+                {
+                    "id": 1400,
+                    "name": "Tekli"
+                },
+                {
+                    "id": 1399,
+                    "name": "10'lu"
+                },
+                {
+                    "id": 1397,
+                    "name": "12'li"
+                },
+                {
+                    "id": 1396,
+                    "name": "8'li"
+                },
+                {
+                    "id": 1395,
+                    "name": "6'lı"
+                },
+                {
+                    "id": 1394,
+                    "name": "3'lü"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 348,
+                "name": "Web Color"
+            },
+            "attributeValues": [
+                {
+                    "id": 686230,
+                    "name": "Çok Renkli"
+                },
+                {
+                    "id": 420157,
+                    "name": "Krem"
+                },
+                {
+                    "id": 7015,
+                    "name": "Haki"
+                },
+                {
+                    "id": 7014,
+                    "name": "Ekru"
+                },
+                {
+                    "id": 7013,
+                    "name": "Bordo"
+                },
+                {
+                    "id": 7012,
+                    "name": "Yeşil"
+                },
+                {
+                    "id": 7011,
+                    "name": "Turuncu"
+                },
+                {
+                    "id": 7010,
+                    "name": "Turkuaz"
+                },
+                {
+                    "id": 7009,
+                    "name": "Siyah"
+                },
+                {
+                    "id": 7008,
+                    "name": "Sarı"
+                },
+                {
+                    "id": 7007,
+                    "name": "Pembe"
+                },
+                {
+                    "id": 7006,
+                    "name": "Mor"
+                },
+                {
+                    "id": 7005,
+                    "name": "Metalik"
+                },
+                {
+                    "id": 7004,
+                    "name": "Mavi"
+                },
+                {
+                    "id": 7003,
+                    "name": "Lacivert"
+                },
+                {
+                    "id": 7002,
+                    "name": "Kırmızı"
+                },
+                {
+                    "id": 7001,
+                    "name": "Kahverengi"
+                },
+                {
+                    "id": 7000,
+                    "name": "Gümüş"
+                },
+                {
+                    "id": 6999,
+                    "name": "Gri"
+                },
+                {
+                    "id": 6998,
+                    "name": "Beyaz"
+                },
+                {
+                    "id": 6997,
+                    "name": "Bej"
+                },
+                {
+                    "id": 6996,
+                    "name": "Altın"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": true,
+            "attribute": {
+                "id": 1198,
+                "name": "Üretici Bilgisi"
+            },
+            "attributeValues": [],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 1108,
+                "name": "Sezon"
+            },
+            "attributeValues": [
+                {
+                    "id": 10616950,
+                    "name": "İlkbahar / Sonbahar"
+                },
+                {
+                    "id": 1210664,
+                    "name": "Yaz"
+                },
+                {
+                    "id": 1210663,
+                    "name": "Tüm Sezonlar"
+                },
+                {
+                    "id": 1210662,
+                    "name": "Kış"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 346,
+                "name": "Yaş Grubu"
+            },
+            "attributeValues": [
+                {
+                    "id": 256115,
+                    "name": "Bebek & Çocuk"
+                },
+                {
+                    "id": 4293,
+                    "name": "Yetişkin"
+                },
+                {
+                    "id": 4292,
+                    "name": "Genç"
+                },
+                {
+                    "id": 4291,
+                    "name": "Çocuk"
+                },
+                {
+                    "id": 4290,
+                    "name": "Bebek"
+                }
+            ],
+            "categoryId": 550,
+            "required": true,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 342,
+                "name": "Ürün Tipi"
+            },
+            "attributeValues": [
+                {
+                    "id": 256010,
+                    "name": "2 in 1"
+                },
+                {
+                    "id": 175939,
+                    "name": "Düz"
+                },
+                {
+                    "id": 175938,
+                    "name": "Şardonlu"
+                },
+                {
+                    "id": 175937,
+                    "name": "Yıpratmalı"
+                },
+                {
+                    "id": 175936,
+                    "name": "Yırtıklı"
+                },
+                {
+                    "id": 175935,
+                    "name": "Baskılı"
+                },
+                {
+                    "id": 175934,
+                    "name": "İpliği Boyalı"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 34,
+                "name": "Tip"
+            },
+            "attributeValues": [
+                {
+                    "id": 1214604,
+                    "name": "Kolej"
+                },
+                {
+                    "id": 1098,
+                    "name": "Soket çorap"
+                },
+                {
+                    "id": 1097,
+                    "name": "Patik çorap"
+                },
+                {
+                    "id": 1096,
+                    "name": "Külotlu çorap"
+                },
+                {
+                    "id": 1095,
+                    "name": "Jartiyer çorabı"
+                },
+                {
+                    "id": 1094,
+                    "name": "Hamile çorabı"
+                },
+                {
+                    "id": 1093,
+                    "name": "Ev çorabı"
+                },
+                {
+                    "id": 1092,
+                    "name": "Dizüstü çorap"
+                },
+                {
+                    "id": 1091,
+                    "name": "Dizaltı Çorap"
+                },
+                {
+                    "id": 1090,
+                    "name": "Babet Çorabı"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": true,
+            "attribute": {
+                "id": 1000,
+                "name": "Yıkama Talimatı"
+            },
+            "attributeValues": [],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": true,
+            "attribute": {
+                "id": 1216,
+                "name": "İthalatçı/ Yetkili Temsilci/ İfa Hizmet Sağlayıcı"
+            },
+            "attributeValues": [],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 892,
+                "name": "Sürdürülebilirlik Detayı"
+            },
+            "attributeValues": [
+                {
+                    "id": 1178727,
+                    "name": "Recycle"
+                },
+                {
+                    "id": 1178725,
+                    "name": "Organik"
+                },
+                {
+                    "id": 1178088,
+                    "name": "Hayır"
+                },
+                {
+                    "id": 1178087,
+                    "name": "Evet"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 48,
+                "name": "Boy"
+            },
+            "attributeValues": [
+                {
+                    "id": 1200570,
+                    "name": "196"
+                },
+                {
+                    "id": 1200562,
+                    "name": "164"
+                },
+                {
+                    "id": 1200559,
+                    "name": "160"
+                },
+                {
+                    "id": 1200556,
+                    "name": "197"
+                },
+                {
+                    "id": 1200555,
+                    "name": "193"
+                },
+                {
+                    "id": 1200551,
+                    "name": "189"
+                },
+                {
+                    "id": 1200546,
+                    "name": "194"
+                },
+                {
+                    "id": 1200537,
+                    "name": "150"
+                },
+                {
+                    "id": 1200534,
+                    "name": "175"
+                },
+                {
+                    "id": 1200532,
+                    "name": "168"
+                },
+                {
+                    "id": 1200531,
+                    "name": "157"
+                },
+                {
+                    "id": 1200527,
+                    "name": "162"
+                },
+                {
+                    "id": 1200526,
+                    "name": "188"
+                },
+                {
+                    "id": 1200521,
+                    "name": "171"
+                },
+                {
+                    "id": 902439,
+                    "name": "Regular"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": true,
+            "attribute": {
+                "id": 987,
+                "name": "Materyal Bileşeni"
+            },
+            "attributeValues": [],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 881,
+                "name": "Ortam"
+            },
+            "attributeValues": [
+                {
+                    "id": 1214341,
+                    "name": "Gündüz / Gece"
+                },
+                {
+                    "id": 1214340,
+                    "name": "Kokteyl"
+                },
+                {
+                    "id": 1214339,
+                    "name": "Mezuniyet/Balo"
+                },
+                {
+                    "id": 1214338,
+                    "name": "Homewear"
+                },
+                {
+                    "id": 1185703,
+                    "name": "Prom Braidsmaid"
+                },
+                {
+                    "id": 1178627,
+                    "name": "Lounge/Home"
+                },
+                {
+                    "id": 1178626,
+                    "name": "Back to School"
+                },
+                {
+                    "id": 1178155,
+                    "name": "Sportswear"
+                },
+                {
+                    "id": 998415,
+                    "name": "Şık/Gece"
+                },
+                {
+                    "id": 998414,
+                    "name": "Beachwear"
+                },
+                {
+                    "id": 998412,
+                    "name": "Düğün/Nikah"
+                },
+                {
+                    "id": 998411,
+                    "name": "Party"
+                },
+                {
+                    "id": 998410,
+                    "name": "Casual/Günlük"
+                },
+                {
+                    "id": 998409,
+                    "name": "Business"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 124,
+                "name": "Ek Özellik"
+            },
+            "attributeValues": [
+                {
+                    "id": 1201774,
+                    "name": "Yıkamalı"
+                },
+                {
+                    "id": 1201773,
+                    "name": "Broderie"
+                },
+                {
+                    "id": 1186463,
+                    "name": "Saten"
+                },
+                {
+                    "id": 1185701,
+                    "name": "Seamless"
+                },
+                {
+                    "id": 1184486,
+                    "name": "Termal"
+                },
+                {
+                    "id": 1184485,
+                    "name": "Korseli"
+                },
+                {
+                    "id": 1178759,
+                    "name": "Ek Özellik Mevcut Değil"
+                },
+                {
+                    "id": 1178479,
+                    "name": "Yırtmaçlı"
+                },
+                {
+                    "id": 1178477,
+                    "name": "Ütü istemez"
+                },
+                {
+                    "id": 1178476,
+                    "name": "Toparlayıcı"
+                },
+                {
+                    "id": 1178475,
+                    "name": "Thermo"
+                },
+                {
+                    "id": 1178473,
+                    "name": "Süper Esnek"
+                },
+                {
+                    "id": 1178472,
+                    "name": "Su itici"
+                },
+                {
+                    "id": 1178471,
+                    "name": "Su Geçirmez"
+                },
+                {
+                    "id": 1178470,
+                    "name": "Solmayan Siyah"
+                },
+                {
+                    "id": 1178469,
+                    "name": "Serin tutar"
+                },
+                {
+                    "id": 1178468,
+                    "name": "Push up"
+                },
+                {
+                    "id": 1178467,
+                    "name": "Ortopedik Taban"
+                },
+                {
+                    "id": 1178465,
+                    "name": "My First Bra"
+                },
+                {
+                    "id": 1178464,
+                    "name": "Minimizer"
+                },
+                {
+                    "id": 1178463,
+                    "name": "Lisanslı"
+                },
+                {
+                    "id": 1178462,
+                    "name": "Kürk Yaka"
+                },
+                {
+                    "id": 1178461,
+                    "name": "Korsaj"
+                },
+                {
+                    "id": 1178459,
+                    "name": "Katlanabilir Poşetli"
+                },
+                {
+                    "id": 1178458,
+                    "name": "İncelten Etki"
+                },
+                {
+                    "id": 1178457,
+                    "name": "İç Göstermeyen"
+                },
+                {
+                    "id": 1178456,
+                    "name": "Extra Yumuşak"
+                },
+                {
+                    "id": 1178455,
+                    "name": "Extra Esnek"
+                },
+                {
+                    "id": 1178454,
+                    "name": "Esnek Bel"
+                },
+                {
+                    "id": 1178453,
+                    "name": "Eco-friendly"
+                },
+                {
+                    "id": 1178451,
+                    "name": "Çift Yönlü Payet"
+                },
+                {
+                    "id": 1178447,
+                    "name": "Cut Out"
+                },
+                {
+                    "id": 1178446,
+                    "name": "Beli lastikli"
+                },
+                {
+                    "id": 1178445,
+                    "name": "Baskısı Renk Değiştiren"
+                },
+                {
+                    "id": 1178444,
+                    "name": "Bağcıklı"
+                },
+                {
+                    "id": 1178443,
+                    "name": "Ayarlanabilir Bel"
+                },
+                {
+                    "id": 1178442,
+                    "name": "Alttan Çıtçıtlı"
+                },
+                {
+                    "id": 1178133,
+                    "name": "Esnek"
+                },
+                {
+                    "id": 1178132,
+                    "name": "Kırışmaya dayanıklı"
+                },
+                {
+                    "id": 1178131,
+                    "name": "Reversible"
+                },
+                {
+                    "id": 1178129,
+                    "name": "Çıkabilir Astar"
+                },
+                {
+                    "id": 1178128,
+                    "name": "Çıkabilir Kapüşon"
+                },
+                {
+                    "id": 1042633,
+                    "name": "Basınç Göstergeli"
+                },
+                {
+                    "id": 1042630,
+                    "name": "Titreşimli"
+                },
+                {
+                    "id": 1017275,
+                    "name": "Katlanabilir"
+                },
+                {
+                    "id": 1017262,
+                    "name": "Uzunluk Ayarlı"
+                },
+                {
+                    "id": 1017171,
+                    "name": "Led Işıklı"
+                },
+                {
+                    "id": 1017156,
+                    "name": "Oturaklı"
+                },
+                {
+                    "id": 1017149,
+                    "name": "Işıklı"
+                },
+                {
+                    "id": 1015749,
+                    "name": "Kızılötesi"
+                },
+                {
+                    "id": 25114,
+                    "name": "Suya Dayanıklı"
+                },
+                {
+                    "id": 20654,
+                    "name": "Glutensiz"
+                },
+                {
+                    "id": 20653,
+                    "name": "Vegan"
+                },
+                {
+                    "id": 19004,
+                    "name": "Fırınlanmış"
+                },
+                {
+                    "id": 18998,
+                    "name": "Misel"
+                },
+                {
+                    "id": 18686,
+                    "name": "Paraben İçermeyen"
+                },
+                {
+                    "id": 18685,
+                    "name": "Alkol İçermeyen"
+                },
+                {
+                    "id": 18684,
+                    "name": "Parfüm İçermeyen"
+                },
+                {
+                    "id": 18683,
+                    "name": "Sülfat İçermeyen"
+                },
+                {
+                    "id": 18682,
+                    "name": "E Vitamini"
+                },
+                {
+                    "id": 18679,
+                    "name": "B5 Vitamini"
+                },
+                {
+                    "id": 18677,
+                    "name": "C Vitamini"
+                },
+                {
+                    "id": 18676,
+                    "name": "Kolajen"
+                },
+                {
+                    "id": 18675,
+                    "name": "Hyalüronik Asit"
+                },
+                {
+                    "id": 3939,
+                    "name": "Promosyon Paketi"
+                },
+                {
+                    "id": 3938,
+                    "name": "Parfümlü"
+                },
+                {
+                    "id": 3937,
+                    "name": "Organik"
+                },
+                {
+                    "id": 3936,
+                    "name": "Light Ürün"
+                },
+                {
+                    "id": 3935,
+                    "name": "Desenli"
+                },
+                {
+                    "id": 3934,
+                    "name": "Çocuk ve Bebek Ürünü"
+                },
+                {
+                    "id": 3933,
+                    "name": "Anti Alerjik"
+                },
+                {
+                    "id": 1709,
+                    "name": "Takvim"
+                },
+                {
+                    "id": 1708,
+                    "name": "Pusula"
+                },
+                {
+                    "id": 1706,
+                    "name": "Aydınlatma"
+                },
+                {
+                    "id": 1705,
+                    "name": "Alarm"
+                },
+                {
+                    "id": 1703,
+                    "name": "Woolmark"
+                },
+                {
+                    "id": 1702,
+                    "name": "Sıvı Deterjan Dozajlama"
+                },
+                {
+                    "id": 1701,
+                    "name": "Buhar"
+                },
+                {
+                    "id": 1700,
+                    "name": "Aquafusion"
+                },
+                {
+                    "id": 1699,
+                    "name": "Çocuk Kilidi"
+                },
+                {
+                    "id": 1698,
+                    "name": "Bardaklık Aparatı"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 200,
+                "name": "Kumaş Tipi"
+            },
+            "attributeValues": [
+                {
+                    "id": 10619094,
+                    "name": "Belirtilmemiş"
+                },
+                {
+                    "id": 10591554,
+                    "name": "Havlu Kumaş"
+                },
+                {
+                    "id": 1186276,
+                    "name": "Suni Deri"
+                },
+                {
+                    "id": 2192,
+                    "name": "Triko"
+                },
+                {
+                    "id": 2191,
+                    "name": "Örme"
+                },
+                {
+                    "id": 2190,
+                    "name": "Dokuma"
+                },
+                {
+                    "id": 2189,
+                    "name": "Denim"
+                }
+            ],
+            "categoryId": 550,
+            "required": true,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 710,
+                "name": "Koleksiyon"
+            },
+            "attributeValues": [
+                {
+                    "id": 1193813,
+                    "name": "Care"
+                },
+                {
+                    "id": 1186176,
+                    "name": "Modest"
+                },
+                {
+                    "id": 1186175,
+                    "name": "Halloween"
+                },
+                {
+                    "id": 1186174,
+                    "name": "Christmas"
+                },
+                {
+                    "id": 1181047,
+                    "name": "Tesettür Giyim"
+                },
+                {
+                    "id": 1181046,
+                    "name": "Hamile"
+                },
+                {
+                    "id": 1178519,
+                    "name": "Lisanslı"
+                },
+                {
+                    "id": 861858,
+                    "name": "Glam"
+                },
+                {
+                    "id": 666299,
+                    "name": "Menswear"
+                },
+                {
+                    "id": 307704,
+                    "name": "Unisex"
+                },
+                {
+                    "id": 300036,
+                    "name": "Büyük Beden"
+                },
+                {
+                    "id": 259552,
+                    "name": "Basic"
+                },
+                {
+                    "id": 259551,
+                    "name": "Eco-friendly"
+                },
+                {
+                    "id": 259550,
+                    "name": "Plaj Tekstil"
+                },
+                {
+                    "id": 259549,
+                    "name": "Petite"
+                },
+                {
+                    "id": 259548,
+                    "name": "Sportswear"
+                },
+                {
+                    "id": 259547,
+                    "name": "Homewear"
+                },
+                {
+                    "id": 259546,
+                    "name": "Design"
+                },
+                {
+                    "id": 259545,
+                    "name": "Loungewear"
+                },
+                {
+                    "id": 259544,
+                    "name": "İç Giyim"
+                },
+                {
+                    "id": 259543,
+                    "name": "Young"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 117,
+                "name": "Dokuma Tipi"
+            },
+            "attributeValues": [
+                {
+                    "id": 10624930,
+                    "name": "Düz Dokuma"
+                },
+                {
+                    "id": 10623298,
+                    "name": "Ribana"
+                },
+                {
+                    "id": 10623297,
+                    "name": "Viskon Ribana"
+                },
+                {
+                    "id": 10623296,
+                    "name": "Çelik Örgü"
+                },
+                {
+                    "id": 10623295,
+                    "name": "Mikro Likralı İnterlok"
+                },
+                {
+                    "id": 10623294,
+                    "name": "Likralı Penye Süprem"
+                },
+                {
+                    "id": 10623293,
+                    "name": "Likralı 2 İplik Şardonsuz"
+                },
+                {
+                    "id": 10623291,
+                    "name": "30/2 penye süprem"
+                },
+                {
+                    "id": 10623290,
+                    "name": "30/2 openend süprem"
+                },
+                {
+                    "id": 10623289,
+                    "name": "24/1 openend süprem"
+                },
+                {
+                    "id": 1214867,
+                    "name": "20/1 flamlı süprem"
+                },
+                {
+                    "id": 1185609,
+                    "name": "2 İplik Rejenere"
+                },
+                {
+                    "id": 1178366,
+                    "name": "Jakar"
+                },
+                {
+                    "id": 1178086,
+                    "name": "Havlu"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": true,
+            "attribute": {
+                "id": 47,
+                "name": "Renk"
+            },
+            "attributeValues": [],
+            "categoryId": 550,
+            "required": true,
+            "varianter": false,
+            "slicer": true
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 338,
+                "name": "Beden"
+            },
+            "attributeValues": [
+                {
+                    "id": 10622983,
+                    "name": "43-46,5"
+                },
+                {
+                    "id": 10622980,
+                    "name": "36,5-41"
+                },
+                {
+                    "id": 10622967,
+                    "name": "42,5/47"
+                },
+                {
+                    "id": 10622965,
+                    "name": "31,5-36"
+                },
+                {
+                    "id": 10622964,
+                    "name": "31,5-36,5"
+                },
+                {
+                    "id": 10615010,
+                    "name": "38-43"
+                },
+                {
+                    "id": 10559333,
+                    "name": "13-15 Yaş"
+                },
+                {
+                    "id": 10559325,
+                    "name": "13 Yaş"
+                },
+                {
+                    "id": 10559322,
+                    "name": "2-3 Yaş"
+                },
+                {
+                    "id": 1216871,
+                    "name": "152-158"
+                },
+                {
+                    "id": 1216358,
+                    "name": "128-134"
+                },
+                {
+                    "id": 1216355,
+                    "name": "110-116"
+                },
+                {
+                    "id": 1216352,
+                    "name": "140-146"
+                },
+                {
+                    "id": 1216345,
+                    "name": "92-98"
+                },
+                {
+                    "id": 1216340,
+                    "name": "98-104"
+                },
+                {
+                    "id": 1215104,
+                    "name": "158-164"
+                },
+                {
+                    "id": 1214349,
+                    "name": "42/45"
+                },
+                {
+                    "id": 1214348,
+                    "name": "46/50"
+                },
+                {
+                    "id": 1214347,
+                    "name": "38/41"
+                },
+                {
+                    "id": 1214345,
+                    "name": "35-42"
+                },
+                {
+                    "id": 1198157,
+                    "name": "7XL-8XL"
+                },
+                {
+                    "id": 1198111,
+                    "name": "2XS/XS"
+                },
+                {
+                    "id": 1197862,
+                    "name": "36 - 40"
+                },
+                {
+                    "id": 1197861,
+                    "name": "23 - 28"
+                },
+                {
+                    "id": 1197860,
+                    "name": "20 - 30"
+                },
+                {
+                    "id": 1197859,
+                    "name": "18 - 21"
+                },
+                {
+                    "id": 1197858,
+                    "name": "31 - 32"
+                },
+                {
+                    "id": 1197857,
+                    "name": "30 - 32"
+                },
+                {
+                    "id": 1197856,
+                    "name": "22-23"
+                },
+                {
+                    "id": 1197855,
+                    "name": "20-21"
+                },
+                {
+                    "id": 1197854,
+                    "name": "18 - 19"
+                },
+                {
+                    "id": 1196810,
+                    "name": "110 - 116"
+                },
+                {
+                    "id": 1196776,
+                    "name": "42/46"
+                },
+                {
+                    "id": 1196146,
+                    "name": "122-128"
+                },
+                {
+                    "id": 1196145,
+                    "name": "134-140"
+                },
+                {
+                    "id": 1196127,
+                    "name": "146-152"
+                },
+                {
+                    "id": 1196121,
+                    "name": "122/128"
+                },
+                {
+                    "id": 1196120,
+                    "name": "74/80"
+                },
+                {
+                    "id": 1194153,
+                    "name": "32-36"
+                },
+                {
+                    "id": 1186526,
+                    "name": "3-4"
+                },
+                {
+                    "id": 1185082,
+                    "name": "5XL/6XL"
+                },
+                {
+                    "id": 1182918,
+                    "name": "47-49"
+                },
+                {
+                    "id": 1182621,
+                    "name": "116-122"
+                },
+                {
+                    "id": 1182620,
+                    "name": "104-110"
+                },
+                {
+                    "id": 1181843,
+                    "name": "35-44"
+                },
+                {
+                    "id": 1181048,
+                    "name": "4-12 Ay"
+                },
+                {
+                    "id": 1181007,
+                    "name": "45-48"
+                },
+                {
+                    "id": 1179252,
+                    "name": "21-26"
+                },
+                {
+                    "id": 902182,
+                    "name": "9-15 Yaş"
+                },
+                {
+                    "id": 593426,
+                    "name": "0-2 Ay"
+                },
+                {
+                    "id": 592669,
+                    "name": "50/56"
+                },
+                {
+                    "id": 440767,
+                    "name": "38-42"
+                },
+                {
+                    "id": 420440,
+                    "name": "42/44"
+                },
+                {
+                    "id": 417217,
+                    "name": "33-37"
+                },
+                {
+                    "id": 415907,
+                    "name": "3XL-4XL"
+                },
+                {
+                    "id": 415128,
+                    "name": "20-24"
+                },
+                {
+                    "id": 337858,
+                    "name": "4-8 Yaş"
+                },
+                {
+                    "id": 324782,
+                    "name": "14-16"
+                },
+                {
+                    "id": 317664,
+                    "name": "3-7 Yaş"
+                },
+                {
+                    "id": 314856,
+                    "name": "36-42"
+                },
+                {
+                    "id": 313200,
+                    "name": "26-30"
+                },
+                {
+                    "id": 286250,
+                    "name": "38/40"
+                },
+                {
+                    "id": 284581,
+                    "name": "36-44"
+                },
+                {
+                    "id": 284554,
+                    "name": "39-44"
+                },
+                {
+                    "id": 276112,
+                    "name": "15-17"
+                },
+                {
+                    "id": 257480,
+                    "name": "37-43"
+                },
+                {
+                    "id": 251623,
+                    "name": "37/43"
+                },
+                {
+                    "id": 251622,
+                    "name": "37/45"
+                },
+                {
+                    "id": 219944,
+                    "name": "40/46"
+                },
+                {
+                    "id": 144860,
+                    "name": "98"
+                },
+                {
+                    "id": 144859,
+                    "name": "104"
+                },
+                {
+                    "id": 144271,
+                    "name": "Standart"
+                },
+                {
+                    "id": 137087,
+                    "name": "125 x 140"
+                },
+                {
+                    "id": 112720,
+                    "name": "0"
+                },
+                {
+                    "id": 24501,
+                    "name": "37-44"
+                },
+                {
+                    "id": 22198,
+                    "name": "12-24 Ay"
+                },
+                {
+                    "id": 22111,
+                    "name": "111"
+                },
+                {
+                    "id": 19821,
+                    "name": "56/58"
+                },
+                {
+                    "id": 19820,
+                    "name": "54/56"
+                },
+                {
+                    "id": 19819,
+                    "name": "52/54"
+                },
+                {
+                    "id": 19818,
+                    "name": "50/52"
+                },
+                {
+                    "id": 19817,
+                    "name": "46/48"
+                },
+                {
+                    "id": 19656,
+                    "name": "80 x 140"
+                },
+                {
+                    "id": 19252,
+                    "name": "XL-3XL"
+                },
+                {
+                    "id": 19178,
+                    "name": "15-16"
+                },
+                {
+                    "id": 19177,
+                    "name": "13-14"
+                },
+                {
+                    "id": 19167,
+                    "name": "4XL-5XL"
+                },
+                {
+                    "id": 18705,
+                    "name": "26-29"
+                },
+                {
+                    "id": 18382,
+                    "name": "37/42"
+                },
+                {
+                    "id": 18381,
+                    "name": "37/39"
+                },
+                {
+                    "id": 18380,
+                    "name": "43/47"
+                },
+                {
+                    "id": 18379,
+                    "name": "47/49"
+                },
+                {
+                    "id": 18377,
+                    "name": "XL/LNG"
+                },
+                {
+                    "id": 18374,
+                    "name": "3XL/LNG"
+                },
+                {
+                    "id": 18357,
+                    "name": "S/LNG"
+                },
+                {
+                    "id": 18356,
+                    "name": "M/LNG"
+                },
+                {
+                    "id": 13294,
+                    "name": "17-19"
+                },
+                {
+                    "id": 13097,
+                    "name": "3XL/4XL"
+                },
+                {
+                    "id": 12845,
+                    "name": "XXXXLLNG"
+                },
+                {
+                    "id": 12746,
+                    "name": "XXLLNG"
+                },
+                {
+                    "id": 12409,
+                    "name": "XXXLLNG"
+                },
+                {
+                    "id": 11373,
+                    "name": "32-34"
+                },
+                {
+                    "id": 9640,
+                    "name": "4-6 AY"
+                },
+                {
+                    "id": 9590,
+                    "name": "2-4 Ay"
+                },
+                {
+                    "id": 9540,
+                    "name": "1-2 AY"
+                },
+                {
+                    "id": 9490,
+                    "name": "6-8"
+                },
+                {
+                    "id": 8850,
+                    "name": "24-27"
+                },
+                {
+                    "id": 8747,
+                    "name": "74"
+                },
+                {
+                    "id": 8597,
+                    "name": "25-29"
+                },
+                {
+                    "id": 8505,
+                    "name": "XS-S"
+                },
+                {
+                    "id": 8297,
+                    "name": "27-31"
+                },
+                {
+                    "id": 8247,
+                    "name": "24-36 Ay"
+                },
+                {
+                    "id": 7457,
+                    "name": "40-57"
+                },
+                {
+                    "id": 7456,
+                    "name": "40-56"
+                },
+                {
+                    "id": 7455,
+                    "name": "40-55"
+                },
+                {
+                    "id": 7454,
+                    "name": "40-54"
+                },
+                {
+                    "id": 7453,
+                    "name": "40-53"
+                },
+                {
+                    "id": 7452,
+                    "name": "40-52"
+                },
+                {
+                    "id": 7451,
+                    "name": "40-51"
+                },
+                {
+                    "id": 7450,
+                    "name": "40-50"
+                },
+                {
+                    "id": 7449,
+                    "name": "40-49"
+                },
+                {
+                    "id": 7448,
+                    "name": "40-47"
+                },
+                {
+                    "id": 7445,
+                    "name": "21-24"
+                },
+                {
+                    "id": 7443,
+                    "name": "29-32"
+                },
+                {
+                    "id": 7263,
+                    "name": "8-12 Yaş"
+                },
+                {
+                    "id": 7261,
+                    "name": "44/46"
+                },
+                {
+                    "id": 7258,
+                    "name": "18,5"
+                },
+                {
+                    "id": 7256,
+                    "name": "35-39"
+                },
+                {
+                    "id": 7255,
+                    "name": "140 CM"
+                },
+                {
+                    "id": 7253,
+                    "name": "1-3 AY"
+                },
+                {
+                    "id": 7117,
+                    "name": "S/M"
+                },
+                {
+                    "id": 7116,
+                    "name": "Orta Boy"
+                },
+                {
+                    "id": 7112,
+                    "name": "L/XL"
+                },
+                {
+                    "id": 7111,
+                    "name": "Küçük Boy"
+                },
+                {
+                    "id": 7110,
+                    "name": "Büyük Boy"
+                },
+                {
+                    "id": 7108,
+                    "name": "9-11 Yaş"
+                },
+                {
+                    "id": 7105,
+                    "name": "9"
+                },
+                {
+                    "id": 7101,
+                    "name": "8"
+                },
+                {
+                    "id": 7100,
+                    "name": "7-8 Yaş"
+                },
+                {
+                    "id": 7096,
+                    "name": "7"
+                },
+                {
+                    "id": 7095,
+                    "name": "6-9 Yaş"
+                },
+                {
+                    "id": 7093,
+                    "name": "60"
+                },
+                {
+                    "id": 7092,
+                    "name": "6"
+                },
+                {
+                    "id": 7088,
+                    "name": "58"
+                },
+                {
+                    "id": 7084,
+                    "name": "5-6 Yaş"
+                },
+                {
+                    "id": 7083,
+                    "name": "56"
+                },
+                {
+                    "id": 7080,
+                    "name": "54"
+                },
+                {
+                    "id": 7079,
+                    "name": "52"
+                },
+                {
+                    "id": 7075,
+                    "name": "50 cm"
+                },
+                {
+                    "id": 7074,
+                    "name": "50"
+                },
+                {
+                    "id": 7071,
+                    "name": "5"
+                },
+                {
+                    "id": 7069,
+                    "name": "48"
+                },
+                {
+                    "id": 7068,
+                    "name": "47"
+                },
+                {
+                    "id": 7067,
+                    "name": "40"
+                },
+                {
+                    "id": 7066,
+                    "name": "4"
+                },
+                {
+                    "id": 7065,
+                    "name": "3-6 Yaş"
+                },
+                {
+                    "id": 7064,
+                    "name": "3-4 Yaş"
+                },
+                {
+                    "id": 7061,
+                    "name": "3"
+                },
+                {
+                    "id": 7055,
+                    "name": "20"
+                },
+                {
+                    "id": 7054,
+                    "name": "2"
+                },
+                {
+                    "id": 7046,
+                    "name": "16"
+                },
+                {
+                    "id": 7041,
+                    "name": "15"
+                },
+                {
+                    "id": 7039,
+                    "name": "14"
+                },
+                {
+                    "id": 7038,
+                    "name": "13"
+                },
+                {
+                    "id": 7034,
+                    "name": "1-2"
+                },
+                {
+                    "id": 7033,
+                    "name": "12"
+                },
+                {
+                    "id": 7032,
+                    "name": "11"
+                },
+                {
+                    "id": 7025,
+                    "name": "100"
+                },
+                {
+                    "id": 7022,
+                    "name": "10"
+                },
+                {
+                    "id": 7019,
+                    "name": "1"
+                },
+                {
+                    "id": 7018,
+                    "name": "0-3 Yaş"
+                },
+                {
+                    "id": 6994,
+                    "name": "Yeni Doğan"
+                },
+                {
+                    "id": 6991,
+                    "name": "XXLSTD"
+                },
+                {
+                    "id": 6975,
+                    "name": "XS/S"
+                },
+                {
+                    "id": 6973,
+                    "name": "XS/L"
+                },
+                {
+                    "id": 6964,
+                    "name": "XS"
+                },
+                {
+                    "id": 6963,
+                    "name": "XLT"
+                },
+                {
+                    "id": 6962,
+                    "name": "XLSTD"
+                },
+                {
+                    "id": 6949,
+                    "name": "XL/XXXL"
+                },
+                {
+                    "id": 6946,
+                    "name": "XL/S"
+                },
+                {
+                    "id": 6940,
+                    "name": "XL/2XL"
+                },
+                {
+                    "id": 6939,
+                    "name": "XL/16"
+                },
+                {
+                    "id": 6907,
+                    "name": "T2"
+                },
+                {
+                    "id": 6875,
+                    "name": "S/L"
+                },
+                {
+                    "id": 6825,
+                    "name": "OSFM"
+                },
+                {
+                    "id": 6821,
+                    "name": "Tek Ebat"
+                },
+                {
+                    "id": 6817,
+                    "name": "MSTD"
+                },
+                {
+                    "id": 6802,
+                    "name": "M/S"
+                },
+                {
+                    "id": 6801,
+                    "name": "M/L"
+                },
+                {
+                    "id": 6784,
+                    "name": "LT"
+                },
+                {
+                    "id": 6783,
+                    "name": "LSTD"
+                },
+                {
+                    "id": 6747,
+                    "name": "Grip L3"
+                },
+                {
+                    "id": 6744,
+                    "name": "Grip L1"
+                },
+                {
+                    "id": 6741,
+                    "name": "L/S"
+                },
+                {
+                    "id": 6713,
+                    "name": "D Cup"
+                },
+                {
+                    "id": 6710,
+                    "name": "C Cup"
+                },
+                {
+                    "id": 6705,
+                    "name": "99"
+                },
+                {
+                    "id": 6703,
+                    "name": "98-104 cm"
+                },
+                {
+                    "id": 6674,
+                    "name": "92"
+                },
+                {
+                    "id": 6673,
+                    "name": "9-12 Yaş"
+                },
+                {
+                    "id": 6672,
+                    "name": "9 - 12 Ay"
+                },
+                {
+                    "id": 6671,
+                    "name": "9-12"
+                },
+                {
+                    "id": 6670,
+                    "name": "9-11"
+                },
+                {
+                    "id": 6669,
+                    "name": "9-10 Yaş"
+                },
+                {
+                    "id": 6650,
+                    "name": "90 cm"
+                },
+                {
+                    "id": 6649,
+                    "name": "90"
+                },
+                {
+                    "id": 6645,
+                    "name": "9,5"
+                },
+                {
+                    "id": 6643,
+                    "name": "9 Yaş"
+                },
+                {
+                    "id": 6639,
+                    "name": "9 Ay"
+                },
+                {
+                    "id": 6631,
+                    "name": "8-9+"
+                },
+                {
+                    "id": 6630,
+                    "name": "8-9.5"
+                },
+                {
+                    "id": 6629,
+                    "name": "8-9 Yaş"
+                },
+                {
+                    "id": 6626,
+                    "name": "86-92 cm"
+                },
+                {
+                    "id": 6624,
+                    "name": "86"
+                },
+                {
+                    "id": 6599,
+                    "name": "82 cm"
+                },
+                {
+                    "id": 6594,
+                    "name": "8-11"
+                },
+                {
+                    "id": 6591,
+                    "name": "8-10 Yaş"
+                },
+                {
+                    "id": 6590,
+                    "name": "8-10"
+                },
+                {
+                    "id": 6501,
+                    "name": "80"
+                },
+                {
+                    "id": 6500,
+                    "name": "8+-12"
+                },
+                {
+                    "id": 6493,
+                    "name": "8.5"
+                },
+                {
+                    "id": 6492,
+                    "name": "8,5"
+                },
+                {
+                    "id": 6490,
+                    "name": "8 Yaş"
+                },
+                {
+                    "id": 6484,
+                    "name": "7XL"
+                },
+                {
+                    "id": 6480,
+                    "name": "7-9 Yaş"
+                },
+                {
+                    "id": 6476,
+                    "name": "7-8"
+                },
+                {
+                    "id": 6462,
+                    "name": "75B"
+                },
+                {
+                    "id": 6461,
+                    "name": "75A"
+                },
+                {
+                    "id": 6452,
+                    "name": "74-80 cm"
+                },
+                {
+                    "id": 6450,
+                    "name": "74 cm"
+                },
+                {
+                    "id": 6449,
+                    "name": "7-10 Yaş"
+                },
+                {
+                    "id": 6433,
+                    "name": "70A"
+                },
+                {
+                    "id": 6410,
+                    "name": "7,5"
+                },
+                {
+                    "id": 6408,
+                    "name": "7 Yaş"
+                },
+                {
+                    "id": 6403,
+                    "name": "6XL"
+                },
+                {
+                    "id": 6393,
+                    "name": "6-9 AY"
+                },
+                {
+                    "id": 6392,
+                    "name": "6-9"
+                },
+                {
+                    "id": 6388,
+                    "name": "6-8+"
+                },
+                {
+                    "id": 6387,
+                    "name": "6-8 Yaş"
+                },
+                {
+                    "id": 6383,
+                    "name": "6-7+"
+                },
+                {
+                    "id": 6381,
+                    "name": "6-7 Yaş"
+                },
+                {
+                    "id": 6368,
+                    "name": "65A"
+                },
+                {
+                    "id": 6347,
+                    "name": "62 - 68"
+                },
+                {
+                    "id": 6342,
+                    "name": "62 CM"
+                },
+                {
+                    "id": 6339,
+                    "name": "6-18 Ay"
+                },
+                {
+                    "id": 6337,
+                    "name": "6-12 Yaş"
+                },
+                {
+                    "id": 6336,
+                    "name": "6-12 Ay"
+                },
+                {
+                    "id": 6335,
+                    "name": "6-12"
+                },
+                {
+                    "id": 6328,
+                    "name": "60A"
+                },
+                {
+                    "id": 6303,
+                    "name": "6/7"
+                },
+                {
+                    "id": 6295,
+                    "name": "6 Yaş"
+                },
+                {
+                    "id": 6290,
+                    "name": "6 Ay"
+                },
+                {
+                    "id": 6287,
+                    "name": "5XL"
+                },
+                {
+                    "id": 6280,
+                    "name": "59 CM"
+                },
+                {
+                    "id": 6266,
+                    "name": "5-8 Yaş"
+                },
+                {
+                    "id": 6264,
+                    "name": "5-8"
+                },
+                {
+                    "id": 6262,
+                    "name": "5-7 Yaş"
+                },
+                {
+                    "id": 6238,
+                    "name": "56 CM"
+                },
+                {
+                    "id": 6237,
+                    "name": "5-6"
+                },
+                {
+                    "id": 6180,
+                    "name": "52-54"
+                },
+                {
+                    "id": 6170,
+                    "name": "51-54"
+                },
+                {
+                    "id": 6159,
+                    "name": "50L"
+                },
+                {
+                    "id": 6113,
+                    "name": "5 Yaş"
+                },
+                {
+                    "id": 6110,
+                    "name": "5 Ay"
+                },
+                {
+                    "id": 6104,
+                    "name": "4XL"
+                },
+                {
+                    "id": 6102,
+                    "name": "4X"
+                },
+                {
+                    "id": 6100,
+                    "name": "4M"
+                },
+                {
+                    "id": 6096,
+                    "name": "49 - 52"
+                },
+                {
+                    "id": 6068,
+                    "name": "48-50"
+                },
+                {
+                    "id": 6061,
+                    "name": "48/50"
+                },
+                {
+                    "id": 6049,
+                    "name": "4-8"
+                },
+                {
+                    "id": 6046,
+                    "name": "47-50"
+                },
+                {
+                    "id": 6045,
+                    "name": "47-48"
+                },
+                {
+                    "id": 6041,
+                    "name": "4-7 Yaş"
+                },
+                {
+                    "id": 6037,
+                    "name": "4-7"
+                },
+                {
+                    "id": 6015,
+                    "name": "46-50"
+                },
+                {
+                    "id": 6014,
+                    "name": "46-48"
+                },
+                {
+                    "id": 6013,
+                    "name": "46-47"
+                },
+                {
+                    "id": 5998,
+                    "name": "4-6 Yaş"
+                },
+                {
+                    "id": 5993,
+                    "name": "46"
+                },
+                {
+                    "id": 5991,
+                    "name": "45-47"
+                },
+                {
+                    "id": 5990,
+                    "name": "45-46"
+                },
+                {
+                    "id": 5981,
+                    "name": "4-5 Yaş"
+                },
+                {
+                    "id": 5970,
+                    "name": "4-5"
+                },
+                {
+                    "id": 5969,
+                    "name": "45"
+                },
+                {
+                    "id": 5948,
+                    "name": "44-47"
+                },
+                {
+                    "id": 5947,
+                    "name": "44-46"
+                },
+                {
+                    "id": 5946,
+                    "name": "44-45"
+                },
+                {
+                    "id": 5927,
+                    "name": "44,5"
+                },
+                {
+                    "id": 5921,
+                    "name": "44"
+                },
+                {
+                    "id": 5920,
+                    "name": "43-46"
+                },
+                {
+                    "id": 5919,
+                    "name": "43-45"
+                },
+                {
+                    "id": 5918,
+                    "name": "43-44"
+                },
+                {
+                    "id": 5915,
+                    "name": "43/46"
+                },
+                {
+                    "id": 5914,
+                    "name": "43,5"
+                },
+                {
+                    "id": 5909,
+                    "name": "43 1/3"
+                },
+                {
+                    "id": 5907,
+                    "name": "43"
+                },
+                {
+                    "id": 5890,
+                    "name": "42-46"
+                },
+                {
+                    "id": 5889,
+                    "name": "42-45"
+                },
+                {
+                    "id": 5885,
+                    "name": "42-44"
+                },
+                {
+                    "id": 5884,
+                    "name": "42-43"
+                },
+                {
+                    "id": 5864,
+                    "name": "42"
+                },
+                {
+                    "id": 5863,
+                    "name": "41-46"
+                },
+                {
+                    "id": 5862,
+                    "name": "41-45"
+                },
+                {
+                    "id": 5861,
+                    "name": "41-44"
+                },
+                {
+                    "id": 5860,
+                    "name": "41-43"
+                },
+                {
+                    "id": 5859,
+                    "name": "41-42"
+                },
+                {
+                    "id": 5852,
+                    "name": "41"
+                },
+                {
+                    "id": 5835,
+                    "name": "40-46"
+                },
+                {
+                    "id": 5834,
+                    "name": "40-45"
+                },
+                {
+                    "id": 5833,
+                    "name": "40-44"
+                },
+                {
+                    "id": 5832,
+                    "name": "40-43"
+                },
+                {
+                    "id": 5830,
+                    "name": "40-41"
+                },
+                {
+                    "id": 5814,
+                    "name": "40/44"
+                },
+                {
+                    "id": 5813,
+                    "name": "40/42"
+                },
+                {
+                    "id": 5801,
+                    "name": "40,5"
+                },
+                {
+                    "id": 5779,
+                    "name": "4 Yaş"
+                },
+                {
+                    "id": 5766,
+                    "name": "3XLT"
+                },
+                {
+                    "id": 5764,
+                    "name": "3XL"
+                },
+                {
+                    "id": 5761,
+                    "name": "3X"
+                },
+                {
+                    "id": 5754,
+                    "name": "39-49"
+                },
+                {
+                    "id": 5753,
+                    "name": "39-48"
+                },
+                {
+                    "id": 5752,
+                    "name": "39-47"
+                },
+                {
+                    "id": 5751,
+                    "name": "39-46"
+                },
+                {
+                    "id": 5750,
+                    "name": "39-45"
+                },
+                {
+                    "id": 5749,
+                    "name": "39-43"
+                },
+                {
+                    "id": 5748,
+                    "name": "39-42"
+                },
+                {
+                    "id": 5744,
+                    "name": "39-41"
+                },
+                {
+                    "id": 5743,
+                    "name": "39-40"
+                },
+                {
+                    "id": 5742,
+                    "name": "39/42"
+                },
+                {
+                    "id": 5735,
+                    "name": "39,5"
+                },
+                {
+                    "id": 5730,
+                    "name": "39"
+                },
+                {
+                    "id": 5713,
+                    "name": "38-41"
+                },
+                {
+                    "id": 5712,
+                    "name": "38-40"
+                },
+                {
+                    "id": 5710,
+                    "name": "38-39"
+                },
+                {
+                    "id": 5705,
+                    "name": "38/42"
+                },
+                {
+                    "id": 5703,
+                    "name": "38/34"
+                },
+                {
+                    "id": 5688,
+                    "name": "38"
+                },
+                {
+                    "id": 5685,
+                    "name": "37-41"
+                },
+                {
+                    "id": 5684,
+                    "name": "37-40"
+                },
+                {
+                    "id": 5683,
+                    "name": "37-39"
+                },
+                {
+                    "id": 5682,
+                    "name": "3739"
+                },
+                {
+                    "id": 5681,
+                    "name": "37-38"
+                },
+                {
+                    "id": 5665,
+                    "name": "37"
+                },
+                {
+                    "id": 5645,
+                    "name": "36-41"
+                },
+                {
+                    "id": 5643,
+                    "name": "36-39"
+                },
+                {
+                    "id": 5639,
+                    "name": "36-38"
+                },
+                {
+                    "id": 5638,
+                    "name": "36-37"
+                },
+                {
+                    "id": 5633,
+                    "name": "36/38"
+                },
+                {
+                    "id": 5618,
+                    "name": "3-6 AY"
+                },
+                {
+                    "id": 5613,
+                    "name": "36"
+                },
+                {
+                    "id": 5611,
+                    "name": "35-40"
+                },
+                {
+                    "id": 5609,
+                    "name": "35-38"
+                },
+                {
+                    "id": 5608,
+                    "name": "35-37"
+                },
+                {
+                    "id": 5607,
+                    "name": "35-36"
+                },
+                {
+                    "id": 5598,
+                    "name": "35/40"
+                },
+                {
+                    "id": 5597,
+                    "name": "35/38"
+                },
+                {
+                    "id": 5588,
+                    "name": "35,5"
+                },
+                {
+                    "id": 5586,
+                    "name": "3-5 Yaş"
+                },
+                {
+                    "id": 5576,
+                    "name": "3-5"
+                },
+                {
+                    "id": 5575,
+                    "name": "35"
+                },
+                {
+                    "id": 5562,
+                    "name": "34-38"
+                },
+                {
+                    "id": 5561,
+                    "name": "34-37"
+                },
+                {
+                    "id": 5560,
+                    "name": "34-36"
+                },
+                {
+                    "id": 5559,
+                    "name": "34-35"
+                },
+                {
+                    "id": 5552,
+                    "name": "34/37"
+                },
+                {
+                    "id": 5550,
+                    "name": "34/35"
+                },
+                {
+                    "id": 5537,
+                    "name": "3-4 Ay"
+                },
+                {
+                    "id": 5536,
+                    "name": "34"
+                },
+                {
+                    "id": 5532,
+                    "name": "33-35"
+                },
+                {
+                    "id": 5531,
+                    "name": "33-34"
+                },
+                {
+                    "id": 5526,
+                    "name": "33/36"
+                },
+                {
+                    "id": 5513,
+                    "name": "33"
+                },
+                {
+                    "id": 5500,
+                    "name": "32-35"
+                },
+                {
+                    "id": 5490,
+                    "name": "32/34"
+                },
+                {
+                    "id": 5489,
+                    "name": "32/33"
+                },
+                {
+                    "id": 5474,
+                    "name": "32"
+                },
+                {
+                    "id": 5473,
+                    "name": "31-36"
+                },
+                {
+                    "id": 5472,
+                    "name": "31-34"
+                },
+                {
+                    "id": 5471,
+                    "name": "31-33"
+                },
+                {
+                    "id": 5469,
+                    "name": "3-12 Ay"
+                },
+                {
+                    "id": 5468,
+                    "name": "31 - 14"
+                },
+                {
+                    "id": 5464,
+                    "name": "31/35"
+                },
+                {
+                    "id": 5463,
+                    "name": "31/34"
+                },
+                {
+                    "id": 5462,
+                    "name": "31/33"
+                },
+                {
+                    "id": 5451,
+                    "name": "31"
+                },
+                {
+                    "id": 5441,
+                    "name": "30-38"
+                },
+                {
+                    "id": 5440,
+                    "name": "30-35"
+                },
+                {
+                    "id": 5439,
+                    "name": "30-34"
+                },
+                {
+                    "id": 5438,
+                    "name": "30-33"
+                },
+                {
+                    "id": 5432,
+                    "name": "30-31"
+                },
+                {
+                    "id": 5417,
+                    "name": "30/35"
+                },
+                {
+                    "id": 5413,
+                    "name": "30/31"
+                },
+                {
+                    "id": 5406,
+                    "name": "30,5"
+                },
+                {
+                    "id": 5399,
+                    "name": "30"
+                },
+                {
+                    "id": 5388,
+                    "name": "3 Yaş"
+                },
+                {
+                    "id": 5383,
+                    "name": "3 Ay"
+                },
+                {
+                    "id": 5375,
+                    "name": "2XS"
+                },
+                {
+                    "id": 5370,
+                    "name": "2XL/3XL"
+                },
+                {
+                    "id": 5367,
+                    "name": "2XL"
+                },
+                {
+                    "id": 5366,
+                    "name": "2X"
+                },
+                {
+                    "id": 5361,
+                    "name": "29-34"
+                },
+                {
+                    "id": 5360,
+                    "name": "29-31"
+                },
+                {
+                    "id": 5359,
+                    "name": "29-30"
+                },
+                {
+                    "id": 5339,
+                    "name": "29"
+                },
+                {
+                    "id": 5334,
+                    "name": "28-29"
+                },
+                {
+                    "id": 5325,
+                    "name": "28/31"
+                },
+                {
+                    "id": 5324,
+                    "name": "28/30"
+                },
+                {
+                    "id": 5313,
+                    "name": "28"
+                },
+                {
+                    "id": 5306,
+                    "name": "27-30"
+                },
+                {
+                    "id": 5305,
+                    "name": "27-29"
+                },
+                {
+                    "id": 5304,
+                    "name": "27-28"
+                },
+                {
+                    "id": 5298,
+                    "name": "27/34"
+                },
+                {
+                    "id": 5291,
+                    "name": "27/27"
+                },
+                {
+                    "id": 5284,
+                    "name": "27"
+                },
+                {
+                    "id": 5280,
+                    "name": "26-28"
+                },
+                {
+                    "id": 5279,
+                    "name": "26-27"
+                },
+                {
+                    "id": 5270,
+                    "name": "26/33"
+                },
+                {
+                    "id": 5267,
+                    "name": "26/30"
+                },
+                {
+                    "id": 5266,
+                    "name": "26/29"
+                },
+                {
+                    "id": 5255,
+                    "name": "26"
+                },
+                {
+                    "id": 5253,
+                    "name": "25-27"
+                },
+                {
+                    "id": 5252,
+                    "name": "25-26"
+                },
+                {
+                    "id": 5235,
+                    "name": "25/28"
+                },
+                {
+                    "id": 5229,
+                    "name": "2-5 Yaş"
+                },
+                {
+                    "id": 5224,
+                    "name": "25"
+                },
+                {
+                    "id": 5218,
+                    "name": "245"
+                },
+                {
+                    "id": 5215,
+                    "name": "24-32 Ay"
+                },
+                {
+                    "id": 5212,
+                    "name": "24-26"
+                },
+                {
+                    "id": 5211,
+                    "name": "24-25"
+                },
+                {
+                    "id": 5190,
+                    "name": "2-4 Yaş"
+                },
+                {
+                    "id": 5185,
+                    "name": "24 Ay"
+                },
+                {
+                    "id": 5184,
+                    "name": "2-4"
+                },
+                {
+                    "id": 5183,
+                    "name": "24"
+                },
+                {
+                    "id": 5180,
+                    "name": "23-26"
+                },
+                {
+                    "id": 5179,
+                    "name": "23-25"
+                },
+                {
+                    "id": 5178,
+                    "name": "23-24"
+                },
+                {
+                    "id": 5164,
+                    "name": "23/27"
+                },
+                {
+                    "id": 5159,
+                    "name": "2-3 Ay"
+                },
+                {
+                    "id": 5158,
+                    "name": "2-3"
+                },
+                {
+                    "id": 5157,
+                    "name": "23"
+                },
+                {
+                    "id": 5156,
+                    "name": "22STD"
+                },
+                {
+                    "id": 5145,
+                    "name": "22-25"
+                },
+                {
+                    "id": 5144,
+                    "name": "22-24"
+                },
+                {
+                    "id": 5136,
+                    "name": "2-2,5 Yaş"
+                },
+                {
+                    "id": 5134,
+                    "name": "22,5"
+                },
+                {
+                    "id": 5128,
+                    "name": "22"
+                },
+                {
+                    "id": 5126,
+                    "name": "21-23"
+                },
+                {
+                    "id": 5125,
+                    "name": "21-22"
+                },
+                {
+                    "id": 5101,
+                    "name": "20-22"
+                },
+                {
+                    "id": 5068,
+                    "name": "20,5"
+                },
+                {
+                    "id": 5049,
+                    "name": "2 YAŞ"
+                },
+                {
+                    "id": 5035,
+                    "name": "19-22"
+                },
+                {
+                    "id": 5034,
+                    "name": "19-21"
+                },
+                {
+                    "id": 5033,
+                    "name": "19-20"
+                },
+                {
+                    "id": 5027,
+                    "name": "19,5"
+                },
+                {
+                    "id": 5024,
+                    "name": "19"
+                },
+                {
+                    "id": 5000,
+                    "name": "18-24 AY"
+                },
+                {
+                    "id": 4994,
+                    "name": "18-20"
+                },
+                {
+                    "id": 4978,
+                    "name": "18 Yaş"
+                },
+                {
+                    "id": 4971,
+                    "name": "18 Ay"
+                },
+                {
+                    "id": 4970,
+                    "name": "18"
+                },
+                {
+                    "id": 4967,
+                    "name": "176"
+                },
+                {
+                    "id": 4958,
+                    "name": "17-18"
+                },
+                {
+                    "id": 4954,
+                    "name": "170-176 cm"
+                },
+                {
+                    "id": 4942,
+                    "name": "17 Yaş"
+                },
+                {
+                    "id": 4938,
+                    "name": "17"
+                },
+                {
+                    "id": 4930,
+                    "name": "167"
+                },
+                {
+                    "id": 4922,
+                    "name": "164"
+                },
+                {
+                    "id": 4906,
+                    "name": "16-18"
+                },
+                {
+                    "id": 4903,
+                    "name": "16-17"
+                },
+                {
+                    "id": 4859,
+                    "name": "16,5"
+                },
+                {
+                    "id": 4857,
+                    "name": "16 YAŞ"
+                },
+                {
+                    "id": 4852,
+                    "name": "1-6 Ay"
+                },
+                {
+                    "id": 4848,
+                    "name": "158"
+                },
+                {
+                    "id": 4830,
+                    "name": "152 cm"
+                },
+                {
+                    "id": 4829,
+                    "name": "152"
+                },
+                {
+                    "id": 4828,
+                    "name": "15-18 Ay"
+                },
+                {
+                    "id": 4793,
+                    "name": "15 Ay"
+                },
+                {
+                    "id": 4789,
+                    "name": "14MED"
+                },
+                {
+                    "id": 4784,
+                    "name": "146-152 cm"
+                },
+                {
+                    "id": 4779,
+                    "name": "146"
+                },
+                {
+                    "id": 4757,
+                    "name": "14-15 Yaş"
+                },
+                {
+                    "id": 4738,
+                    "name": "140"
+                },
+                {
+                    "id": 4736,
+                    "name": "14/15"
+                },
+                {
+                    "id": 4733,
+                    "name": "14 Yaş ve üzeri"
+                },
+                {
+                    "id": 4732,
+                    "name": "1-4 Yaş"
+                },
+                {
+                    "id": 4731,
+                    "name": "14 Yaş"
+                },
+                {
+                    "id": 4715,
+                    "name": "134/140"
+                },
+                {
+                    "id": 4707,
+                    "name": "13-16 Yaş"
+                },
+                {
+                    "id": 4705,
+                    "name": "13-14 Yaş"
+                },
+                {
+                    "id": 4683,
+                    "name": "1-3 Yaş"
+                },
+                {
+                    "id": 4669,
+                    "name": "128"
+                },
+                {
+                    "id": 4646,
+                    "name": "12-18 AY"
+                },
+                {
+                    "id": 4643,
+                    "name": "12-15 AY"
+                },
+                {
+                    "id": 4640,
+                    "name": "12-14 Yaş"
+                },
+                {
+                    "id": 4639,
+                    "name": "12-14"
+                },
+                {
+                    "id": 4638,
+                    "name": "12-13 Yaş"
+                },
+                {
+                    "id": 4567,
+                    "name": "12+3+"
+                },
+                {
+                    "id": 4561,
+                    "name": "12,5"
+                },
+                {
+                    "id": 4559,
+                    "name": "1-2 Yaş"
+                },
+                {
+                    "id": 4558,
+                    "name": "12 Yaş"
+                },
+                {
+                    "id": 4553,
+                    "name": "12 Ay"
+                },
+                {
+                    "id": 4548,
+                    "name": "116 cm"
+                },
+                {
+                    "id": 4547,
+                    "name": "116"
+                },
+                {
+                    "id": 4541,
+                    "name": "11-14 Yaş"
+                },
+                {
+                    "id": 4540,
+                    "name": "11-13 Yaş"
+                },
+                {
+                    "id": 4539,
+                    "name": "11-12 Yaş"
+                },
+                {
+                    "id": 4520,
+                    "name": "110 CM"
+                },
+                {
+                    "id": 4519,
+                    "name": "110"
+                },
+                {
+                    "id": 4517,
+                    "name": "1-1,5 Yaş"
+                },
+                {
+                    "id": 4516,
+                    "name": "11,5"
+                },
+                {
+                    "id": 4515,
+                    "name": "11 Yaş"
+                },
+                {
+                    "id": 4498,
+                    "name": "104 cm"
+                },
+                {
+                    "id": 4484,
+                    "name": "10-13"
+                },
+                {
+                    "id": 4483,
+                    "name": "10-12 Yaş"
+                },
+                {
+                    "id": 4482,
+                    "name": "10-12"
+                },
+                {
+                    "id": 4481,
+                    "name": "10-11 Yaş"
+                },
+                {
+                    "id": 4400,
+                    "name": "10,5"
+                },
+                {
+                    "id": 4399,
+                    "name": "10 Yaş"
+                },
+                {
+                    "id": 4389,
+                    "name": "1,5-2,5 Yaş"
+                },
+                {
+                    "id": 4382,
+                    "name": "1 Yaş"
+                },
+                {
+                    "id": 4381,
+                    "name": "1 M"
+                },
+                {
+                    "id": 4377,
+                    "name": "0-9 Ay"
+                },
+                {
+                    "id": 4376,
+                    "name": "0-6 Yaş"
+                },
+                {
+                    "id": 4375,
+                    "name": "0-6 Ay"
+                },
+                {
+                    "id": 4372,
+                    "name": "0-3 AY"
+                },
+                {
+                    "id": 4371,
+                    "name": "0-2 Yaş"
+                },
+                {
+                    "id": 4370,
+                    "name": "0-18 Ay"
+                },
+                {
+                    "id": 4369,
+                    "name": "0-12 Yaş"
+                },
+                {
+                    "id": 4368,
+                    "name": "0 - 12 Ay"
+                },
+                {
+                    "id": 4367,
+                    "name": "0-1 Yaş"
+                },
+                {
+                    "id": 4366,
+                    "name": "0-1 Ay"
+                },
+                {
+                    "id": 3962,
+                    "name": "XL"
+                },
+                {
+                    "id": 3961,
+                    "name": "S"
+                },
+                {
+                    "id": 3960,
+                    "name": "M"
+                },
+                {
+                    "id": 3959,
+                    "name": "L"
+                }
+            ],
+            "categoryId": 550,
+            "required": true,
+            "varianter": true,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 33,
+                "name": "Desen"
+            },
+            "attributeValues": [
+                {
+                    "id": 10624932,
+                    "name": "Araba"
+                },
+                {
+                    "id": 10623307,
+                    "name": "Mistik"
+                },
+                {
+                    "id": 1203046,
+                    "name": "Solid"
+                },
+                {
+                    "id": 1183547,
+                    "name": "Yılbaşı"
+                },
+                {
+                    "id": 1178340,
+                    "name": "Zigzag"
+                },
+                {
+                    "id": 1178336,
+                    "name": "Tropikal"
+                },
+                {
+                    "id": 1178333,
+                    "name": "Pano"
+                },
+                {
+                    "id": 1178331,
+                    "name": "Mix"
+                },
+                {
+                    "id": 1178121,
+                    "name": "Timsah"
+                },
+                {
+                    "id": 1178103,
+                    "name": "Çini"
+                },
+                {
+                    "id": 997315,
+                    "name": "Animal"
+                },
+                {
+                    "id": 997300,
+                    "name": "Soyut"
+                },
+                {
+                    "id": 997295,
+                    "name": "Kalp"
+                },
+                {
+                    "id": 997284,
+                    "name": "Galaksi"
+                },
+                {
+                    "id": 902489,
+                    "name": "Manzara"
+                },
+                {
+                    "id": 261977,
+                    "name": "Düz"
+                },
+                {
+                    "id": 256011,
+                    "name": "Lisanslı"
+                },
+                {
+                    "id": 197058,
+                    "name": "Kazayağı"
+                },
+                {
+                    "id": 197057,
+                    "name": "Etnik"
+                },
+                {
+                    "id": 197055,
+                    "name": "Renk Bloklu"
+                },
+                {
+                    "id": 197054,
+                    "name": "Baklava"
+                },
+                {
+                    "id": 197052,
+                    "name": "Varaklı"
+                },
+                {
+                    "id": 197051,
+                    "name": "Nope"
+                },
+                {
+                    "id": 197048,
+                    "name": "Degrade"
+                },
+                {
+                    "id": 197047,
+                    "name": "Ajurlu"
+                },
+                {
+                    "id": 197046,
+                    "name": "Slogan"
+                },
+                {
+                    "id": 197045,
+                    "name": "Şal Desen"
+                },
+                {
+                    "id": 197044,
+                    "name": "Saç Örgü"
+                },
+                {
+                    "id": 197043,
+                    "name": "Balık sırtı"
+                },
+                {
+                    "id": 164721,
+                    "name": "Kırçıllı"
+                },
+                {
+                    "id": 22125,
+                    "name": "Armürlü"
+                },
+                {
+                    "id": 22124,
+                    "name": "Hayvan Desenli"
+                },
+                {
+                    "id": 19007,
+                    "name": "Leopar"
+                },
+                {
+                    "id": 7124,
+                    "name": "Kamuflaj"
+                },
+                {
+                    "id": 7123,
+                    "name": "Dokulu"
+                },
+                {
+                    "id": 1011,
+                    "name": "Desenli"
+                },
+                {
+                    "id": 1008,
+                    "name": "Nakışlı / İşlemeli"
+                },
+                {
+                    "id": 1007,
+                    "name": "Renkli"
+                },
+                {
+                    "id": 1006,
+                    "name": "Puantiyeli"
+                },
+                {
+                    "id": 1004,
+                    "name": "Batik"
+                },
+                {
+                    "id": 1002,
+                    "name": "Jakarlı"
+                },
+                {
+                    "id": 1001,
+                    "name": "Geometrik"
+                },
+                {
+                    "id": 1000,
+                    "name": "Ekose / Kareli"
+                },
+                {
+                    "id": 999,
+                    "name": "Çizgili"
+                },
+                {
+                    "id": 998,
+                    "name": "Çiçekli"
+                },
+                {
+                    "id": 315,
+                    "name": "Baskılı"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 1192,
+                "name": "Menşei"
+            },
+            "attributeValues": [
+                {
+                    "id": 10619932,
+                    "name": "KZ"
+                },
+                {
+                    "id": 10617351,
+                    "name": "DK"
+                },
+                {
+                    "id": 10617350,
+                    "name": "VI"
+                },
+                {
+                    "id": 10617347,
+                    "name": "HR"
+                },
+                {
+                    "id": 10617346,
+                    "name": "AU"
+                },
+                {
+                    "id": 10617344,
+                    "name": "TR"
+                },
+                {
+                    "id": 10617343,
+                    "name": "GI"
+                },
+                {
+                    "id": 10617341,
+                    "name": "UZ"
+                },
+                {
+                    "id": 10617340,
+                    "name": "SI"
+                },
+                {
+                    "id": 10617339,
+                    "name": "US"
+                },
+                {
+                    "id": 10617337,
+                    "name": "RW"
+                },
+                {
+                    "id": 10617335,
+                    "name": "PK"
+                },
+                {
+                    "id": 10617333,
+                    "name": "MU"
+                },
+                {
+                    "id": 10617332,
+                    "name": "DZ"
+                },
+                {
+                    "id": 10617330,
+                    "name": "PG"
+                },
+                {
+                    "id": 10617328,
+                    "name": "MK"
+                },
+                {
+                    "id": 10617327,
+                    "name": "EG"
+                },
+                {
+                    "id": 10617325,
+                    "name": "MA"
+                },
+                {
+                    "id": 10617321,
+                    "name": "LV"
+                },
+                {
+                    "id": 10617320,
+                    "name": "BO"
+                },
+                {
+                    "id": 10617319,
+                    "name": "BH"
+                },
+                {
+                    "id": 10617317,
+                    "name": "IT"
+                },
+                {
+                    "id": 10617315,
+                    "name": "BE"
+                },
+                {
+                    "id": 10617314,
+                    "name": "HK"
+                },
+                {
+                    "id": 10617312,
+                    "name": "MZ"
+                },
+                {
+                    "id": 10617311,
+                    "name": "SV"
+                },
+                {
+                    "id": 10617309,
+                    "name": "TW"
+                },
+                {
+                    "id": 10617306,
+                    "name": "BG"
+                },
+                {
+                    "id": 10617304,
+                    "name": "GL"
+                },
+                {
+                    "id": 10617301,
+                    "name": "BJ"
+                },
+                {
+                    "id": 10617300,
+                    "name": "CN"
+                },
+                {
+                    "id": 10617299,
+                    "name": "BM"
+                },
+                {
+                    "id": 10617297,
+                    "name": "EE"
+                },
+                {
+                    "id": 10617296,
+                    "name": "NG"
+                },
+                {
+                    "id": 10617295,
+                    "name": "TJ"
+                },
+                {
+                    "id": 10617294,
+                    "name": "IQ"
+                },
+                {
+                    "id": 10617291,
+                    "name": "PY"
+                },
+                {
+                    "id": 10617290,
+                    "name": "ID"
+                },
+                {
+                    "id": 10617289,
+                    "name": "MO"
+                },
+                {
+                    "id": 10617288,
+                    "name": "AI"
+                },
+                {
+                    "id": 10617287,
+                    "name": "ME"
+                },
+                {
+                    "id": 10617286,
+                    "name": "TH"
+                },
+                {
+                    "id": 10617284,
+                    "name": "AO"
+                },
+                {
+                    "id": 10617281,
+                    "name": "UG"
+                },
+                {
+                    "id": 10617280,
+                    "name": "CZ"
+                },
+                {
+                    "id": 10617278,
+                    "name": "MG"
+                },
+                {
+                    "id": 10617276,
+                    "name": "CH"
+                },
+                {
+                    "id": 10617272,
+                    "name": "NE"
+                },
+                {
+                    "id": 10617271,
+                    "name": "BB"
+                },
+                {
+                    "id": 10617270,
+                    "name": "GB"
+                },
+                {
+                    "id": 10617269,
+                    "name": "LB"
+                },
+                {
+                    "id": 10617267,
+                    "name": "MP"
+                },
+                {
+                    "id": 10617264,
+                    "name": "JM"
+                },
+                {
+                    "id": 10617263,
+                    "name": "AR"
+                },
+                {
+                    "id": 10617262,
+                    "name": "ZM"
+                },
+                {
+                    "id": 10617260,
+                    "name": "LU"
+                },
+                {
+                    "id": 10617259,
+                    "name": "BR"
+                },
+                {
+                    "id": 10617258,
+                    "name": "OM"
+                },
+                {
+                    "id": 10617257,
+                    "name": "GM"
+                },
+                {
+                    "id": 10617256,
+                    "name": "CI"
+                },
+                {
+                    "id": 10617255,
+                    "name": "XS"
+                },
+                {
+                    "id": 10617254,
+                    "name": "RO"
+                },
+                {
+                    "id": 10617253,
+                    "name": "ET"
+                },
+                {
+                    "id": 10617250,
+                    "name": "FI"
+                },
+                {
+                    "id": 10617249,
+                    "name": "NL"
+                },
+                {
+                    "id": 10617248,
+                    "name": "GR"
+                },
+                {
+                    "id": 10617246,
+                    "name": "KH"
+                },
+                {
+                    "id": 10617244,
+                    "name": "MS"
+                },
+                {
+                    "id": 10617243,
+                    "name": "MX"
+                },
+                {
+                    "id": 10617242,
+                    "name": "AN"
+                },
+                {
+                    "id": 10617239,
+                    "name": "DE"
+                },
+                {
+                    "id": 10617235,
+                    "name": "MN"
+                },
+                {
+                    "id": 10617233,
+                    "name": "AL"
+                },
+                {
+                    "id": 10617232,
+                    "name": "DO"
+                },
+                {
+                    "id": 10617231,
+                    "name": "IE"
+                },
+                {
+                    "id": 10617229,
+                    "name": "BN"
+                },
+                {
+                    "id": 10617227,
+                    "name": "GN"
+                },
+                {
+                    "id": 10617226,
+                    "name": "TM"
+                },
+                {
+                    "id": 10617225,
+                    "name": "MR"
+                },
+                {
+                    "id": 10617223,
+                    "name": "PE"
+                },
+                {
+                    "id": 10617221,
+                    "name": "SK"
+                },
+                {
+                    "id": 10617219,
+                    "name": "QA"
+                },
+                {
+                    "id": 10617218,
+                    "name": "HT"
+                },
+                {
+                    "id": 10617217,
+                    "name": "NI"
+                },
+                {
+                    "id": 10617216,
+                    "name": "AS"
+                },
+                {
+                    "id": 10617214,
+                    "name": "UA"
+                },
+                {
+                    "id": 10617213,
+                    "name": "AZ"
+                },
+                {
+                    "id": 10617212,
+                    "name": "KR"
+                },
+                {
+                    "id": 10617208,
+                    "name": "TD"
+                },
+                {
+                    "id": 10617206,
+                    "name": "KK"
+                },
+                {
+                    "id": 10617203,
+                    "name": "AT"
+                },
+                {
+                    "id": 10617202,
+                    "name": "ES"
+                },
+                {
+                    "id": 10617200,
+                    "name": "NZ"
+                },
+                {
+                    "id": 10617199,
+                    "name": "KE"
+                },
+                {
+                    "id": 10617198,
+                    "name": "IS"
+                },
+                {
+                    "id": 10617197,
+                    "name": "MM"
+                },
+                {
+                    "id": 10617195,
+                    "name": "MV"
+                },
+                {
+                    "id": 10617194,
+                    "name": "UY"
+                },
+                {
+                    "id": 10617193,
+                    "name": "NP"
+                },
+                {
+                    "id": 10617192,
+                    "name": "CR"
+                },
+                {
+                    "id": 10617191,
+                    "name": "TZ"
+                },
+                {
+                    "id": 10617190,
+                    "name": "CL"
+                },
+                {
+                    "id": 10617189,
+                    "name": "AM"
+                },
+                {
+                    "id": 10617188,
+                    "name": "HN"
+                },
+                {
+                    "id": 10617187,
+                    "name": "BA"
+                },
+                {
+                    "id": 10617186,
+                    "name": "SN"
+                },
+                {
+                    "id": 10617184,
+                    "name": "CO"
+                },
+                {
+                    "id": 10617183,
+                    "name": "GE"
+                },
+                {
+                    "id": 10617180,
+                    "name": "CA"
+                },
+                {
+                    "id": 10617179,
+                    "name": "PH"
+                },
+                {
+                    "id": 10617178,
+                    "name": "EC"
+                },
+                {
+                    "id": 10617176,
+                    "name": "GQ"
+                },
+                {
+                    "id": 10617171,
+                    "name": "VA"
+                },
+                {
+                    "id": 10617169,
+                    "name": "FJ"
+                },
+                {
+                    "id": 10617168,
+                    "name": "BD"
+                },
+                {
+                    "id": 10617167,
+                    "name": "PL"
+                },
+                {
+                    "id": 10617165,
+                    "name": "CG"
+                },
+                {
+                    "id": 10617163,
+                    "name": "JP"
+                },
+                {
+                    "id": 10617161,
+                    "name": "JO"
+                },
+                {
+                    "id": 10617160,
+                    "name": "LT"
+                },
+                {
+                    "id": 10617158,
+                    "name": "ZA"
+                },
+                {
+                    "id": 10617157,
+                    "name": "NA"
+                },
+                {
+                    "id": 10617154,
+                    "name": "FR"
+                },
+                {
+                    "id": 10617152,
+                    "name": "KG"
+                },
+                {
+                    "id": 10617151,
+                    "name": "LK"
+                },
+                {
+                    "id": 10617149,
+                    "name": "GH"
+                },
+                {
+                    "id": 10617147,
+                    "name": "MT"
+                },
+                {
+                    "id": 10617146,
+                    "name": "GT"
+                },
+                {
+                    "id": 10617145,
+                    "name": "PA"
+                },
+                {
+                    "id": 10617142,
+                    "name": "PF"
+                },
+                {
+                    "id": 10617141,
+                    "name": "PT"
+                },
+                {
+                    "id": 10617140,
+                    "name": "AD"
+                },
+                {
+                    "id": 10617138,
+                    "name": "MH"
+                },
+                {
+                    "id": 10617136,
+                    "name": "SC"
+                },
+                {
+                    "id": 10617135,
+                    "name": "CY"
+                },
+                {
+                    "id": 10617133,
+                    "name": "SE"
+                },
+                {
+                    "id": 10617132,
+                    "name": "SA"
+                },
+                {
+                    "id": 10617131,
+                    "name": "VN"
+                },
+                {
+                    "id": 10617129,
+                    "name": "MD"
+                },
+                {
+                    "id": 10617128,
+                    "name": "LS"
+                },
+                {
+                    "id": 10617125,
+                    "name": "MY"
+                },
+                {
+                    "id": 10617124,
+                    "name": "SM"
+                },
+                {
+                    "id": 10617122,
+                    "name": "KW"
+                },
+                {
+                    "id": 10617119,
+                    "name": "SG"
+                },
+                {
+                    "id": 10617118,
+                    "name": "TN"
+                },
+                {
+                    "id": 10617117,
+                    "name": "IN"
+                },
+                {
+                    "id": 10617115,
+                    "name": "NO"
+                },
+                {
+                    "id": 10617114,
+                    "name": "HU"
+                },
+                {
+                    "id": 10617113,
+                    "name": "AE"
+                }
+            ],
+            "categoryId": 550,
+            "required": true,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 635,
+                "name": "Ürün Detayı"
+            },
+            "attributeValues": [
+                {
+                    "id": 10622063,
+                    "name": "Katlamalı"
+                },
+                {
+                    "id": 10622050,
+                    "name": "Mevcut Değil"
+                },
+                {
+                    "id": 1214209,
+                    "name": "Doğal Düğme"
+                },
+                {
+                    "id": 1214208,
+                    "name": "Suni Süet"
+                },
+                {
+                    "id": 1210991,
+                    "name": "Suni Tüy"
+                },
+                {
+                    "id": 1208676,
+                    "name": "Suni Kürk"
+                },
+                {
+                    "id": 1208675,
+                    "name": "Suni Deri"
+                },
+                {
+                    "id": 1203099,
+                    "name": "Otriş"
+                },
+                {
+                    "id": 1203052,
+                    "name": "Fiyonklu"
+                },
+                {
+                    "id": 1199310,
+                    "name": "Baskı"
+                },
+                {
+                    "id": 666309,
+                    "name": "Nakışlı"
+                },
+                {
+                    "id": 666301,
+                    "name": "Kurdele"
+                },
+                {
+                    "id": 666296,
+                    "name": "Vatkalı"
+                },
+                {
+                    "id": 666294,
+                    "name": "Dokuma Detaylı"
+                },
+                {
+                    "id": 666261,
+                    "name": "Panelli"
+                },
+                {
+                    "id": 256034,
+                    "name": "Lastikli"
+                },
+                {
+                    "id": 256028,
+                    "name": "Kürk yaka"
+                },
+                {
+                    "id": 256023,
+                    "name": "Yarım Patlı"
+                },
+                {
+                    "id": 197194,
+                    "name": "Örme Detaylı"
+                },
+                {
+                    "id": 197193,
+                    "name": "Frize"
+                },
+                {
+                    "id": 197192,
+                    "name": "Düğmeli"
+                },
+                {
+                    "id": 197191,
+                    "name": "Brodeli"
+                },
+                {
+                    "id": 197190,
+                    "name": "Yırtmaçlı"
+                },
+                {
+                    "id": 197189,
+                    "name": "Denim Kumaş"
+                },
+                {
+                    "id": 197188,
+                    "name": "Biyeli"
+                },
+                {
+                    "id": 197187,
+                    "name": "Püskül"
+                },
+                {
+                    "id": 197186,
+                    "name": "Fularlı"
+                },
+                {
+                    "id": 197184,
+                    "name": "Fermuar"
+                },
+                {
+                    "id": 197183,
+                    "name": "Tokalı"
+                },
+                {
+                    "id": 197182,
+                    "name": "Kuşaklı"
+                },
+                {
+                    "id": 197181,
+                    "name": "Cep Detaylı"
+                },
+                {
+                    "id": 197180,
+                    "name": "Dantel Detaylı"
+                },
+                {
+                    "id": 197179,
+                    "name": "Cut outlı"
+                },
+                {
+                    "id": 197177,
+                    "name": "Kemerli"
+                },
+                {
+                    "id": 197176,
+                    "name": "İncili"
+                },
+                {
+                    "id": 197175,
+                    "name": "Destroylu"
+                },
+                {
+                    "id": 197174,
+                    "name": "Zincirli"
+                },
+                {
+                    "id": 197173,
+                    "name": "Nervürlü"
+                },
+                {
+                    "id": 197172,
+                    "name": "Karyoka Dikişi"
+                },
+                {
+                    "id": 197171,
+                    "name": "Gipeli"
+                },
+                {
+                    "id": 197170,
+                    "name": "Şeritli"
+                },
+                {
+                    "id": 197169,
+                    "name": "Paça"
+                },
+                {
+                    "id": 197168,
+                    "name": "Astarlı"
+                },
+                {
+                    "id": 197163,
+                    "name": "Deri Detaylı"
+                },
+                {
+                    "id": 197161,
+                    "name": "Jakar Panelli"
+                },
+                {
+                    "id": 197159,
+                    "name": "Çıtçıtlı"
+                },
+                {
+                    "id": 197157,
+                    "name": "Fırfırlı"
+                },
+                {
+                    "id": 197155,
+                    "name": "Ponponlu"
+                },
+                {
+                    "id": 197152,
+                    "name": "Aplike"
+                },
+                {
+                    "id": 197150,
+                    "name": "Organzeli"
+                },
+                {
+                    "id": 197147,
+                    "name": "Payet"
+                },
+                {
+                    "id": 197145,
+                    "name": "Peluş Detaylı"
+                },
+                {
+                    "id": 197140,
+                    "name": "Stoperli"
+                },
+                {
+                    "id": 197139,
+                    "name": "Kedi Merdivenli"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 14,
+                "name": "Materyal"
+            },
+            "attributeValues": [
+                {
+                    "id": 1218252,
+                    "name": "Merserize"
+                },
+                {
+                    "id": 1202974,
+                    "name": "Seacell"
+                },
+                {
+                    "id": 1196859,
+                    "name": "Pamuk - Elastan"
+                },
+                {
+                    "id": 1184457,
+                    "name": "Modal-Pamuk"
+                },
+                {
+                    "id": 998013,
+                    "name": "Pamuk Polyester"
+                },
+                {
+                    "id": 997994,
+                    "name": "Poliamid Karışımlı"
+                },
+                {
+                    "id": 997987,
+                    "name": "Polyester Karışımlı"
+                },
+                {
+                    "id": 997984,
+                    "name": "Viskon Karışımlı"
+                },
+                {
+                    "id": 212262,
+                    "name": "%100 Pamuk"
+                },
+                {
+                    "id": 19148,
+                    "name": "Elastodiyen"
+                },
+                {
+                    "id": 19147,
+                    "name": "Poliamid Metalik İplik"
+                },
+                {
+                    "id": 12284,
+                    "name": "Spandeks"
+                },
+                {
+                    "id": 12281,
+                    "name": "Metalik İplik"
+                },
+                {
+                    "id": 12280,
+                    "name": "Lureks"
+                },
+                {
+                    "id": 12278,
+                    "name": "Fibre"
+                },
+                {
+                    "id": 12277,
+                    "name": "Elastan"
+                },
+                {
+                    "id": 9331,
+                    "name": "Asetat"
+                },
+                {
+                    "id": 9330,
+                    "name": "Poliüretan"
+                },
+                {
+                    "id": 9329,
+                    "name": "Liyosel"
+                },
+                {
+                    "id": 9328,
+                    "name": "Naylon"
+                },
+                {
+                    "id": 3991,
+                    "name": "Tekstil"
+                },
+                {
+                    "id": 3979,
+                    "name": "Deri"
+                },
+                {
+                    "id": 716,
+                    "name": "Peluş"
+                },
+                {
+                    "id": 713,
+                    "name": "Elyaf"
+                },
+                {
+                    "id": 710,
+                    "name": "Keten"
+                },
+                {
+                    "id": 709,
+                    "name": "Polipropilen"
+                },
+                {
+                    "id": 690,
+                    "name": "Viskon"
+                },
+                {
+                    "id": 681,
+                    "name": "Pamuklu"
+                },
+                {
+                    "id": 680,
+                    "name": "Kaşmir"
+                },
+                {
+                    "id": 678,
+                    "name": "Likra"
+                },
+                {
+                    "id": 675,
+                    "name": "Saten"
+                },
+                {
+                    "id": 674,
+                    "name": "Modal"
+                },
+                {
+                    "id": 654,
+                    "name": "Poliamid"
+                },
+                {
+                    "id": 196,
+                    "name": "Yünlü"
+                },
+                {
+                    "id": 99,
+                    "name": "Polyester"
+                },
+                {
+                    "id": 85,
+                    "name": "Hakiki Deri"
+                },
+                {
+                    "id": 79,
+                    "name": "Bambu"
+                },
+                {
+                    "id": 77,
+                    "name": "Akrilik"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 18,
+                "name": "Parça Sayısı"
+            },
+            "attributeValues": [
+                {
+                    "id": 10562187,
+                    "name": "6"
+                },
+                {
+                    "id": 10562186,
+                    "name": "5"
+                },
+                {
+                    "id": 10562178,
+                    "name": "3"
+                },
+                {
+                    "id": 10562174,
+                    "name": "2"
+                },
+                {
+                    "id": 10562172,
+                    "name": "12"
+                },
+                {
+                    "id": 10562170,
+                    "name": "10"
+                },
+                {
+                    "id": 10562169,
+                    "name": "7"
+                },
+                {
+                    "id": 10562164,
+                    "name": "4"
+                },
+                {
+                    "id": 10561792,
+                    "name": "1"
+                },
+                {
+                    "id": 1178646,
+                    "name": "9"
+                },
+                {
+                    "id": 417567,
+                    "name": "16"
+                },
+                {
+                    "id": 417428,
+                    "name": "8"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        },
+        {
+            "allowCustom": false,
+            "attribute": {
+                "id": 870,
+                "name": "Persona"
+            },
+            "attributeValues": [
+                {
+                    "id": 1214220,
+                    "name": "Office"
+                },
+                {
+                    "id": 1214219,
+                    "name": "Smart"
+                },
+                {
+                    "id": 1214218,
+                    "name": "Feminine"
+                },
+                {
+                    "id": 1178763,
+                    "name": "None Persona"
+                },
+                {
+                    "id": 902406,
+                    "name": "Sexy"
+                },
+                {
+                    "id": 902405,
+                    "name": "Smart/Office"
+                },
+                {
+                    "id": 902404,
+                    "name": "Traditional"
+                },
+                {
+                    "id": 902403,
+                    "name": "Young"
+                },
+                {
+                    "id": 902402,
+                    "name": "Fashion Forward"
+                },
+                {
+                    "id": 902401,
+                    "name": "Cool & Comfort"
+                }
+            ],
+            "categoryId": 550,
+            "required": false,
+            "varianter": false,
+            "slicer": false
+        }
+    ]
+}

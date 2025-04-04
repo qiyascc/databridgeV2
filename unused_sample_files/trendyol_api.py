@@ -265,9 +265,11 @@ class TrendyolProductManager:
             attributes = self._get_sample_attributes(category_id)
             
             payload = self._build_product_payload(product_data, category_id, brand_id, attributes)
+            print(payload)
             
             logger.info("Submitting product creation request...")
             response = self.api.post(f"product/sellers/{self.api.config.seller_id}/products", payload)
+            print(response)
             
             return response.get('batchRequestId')
         except Exception as e:
@@ -303,9 +305,9 @@ class TrendyolProductManager:
                 "images": [{"url": product.image_url}],
                 "attributes": attributes
             }],
-            "batchRequestId": str(uuid.uuid4()),
-            "hasMultiSupplier": False,
-            "supplierId": int(self.api.config.seller_id)
+            # "batchRequestId": str(uuid.uuid4()),
+            # "hasMultiSupplier": False,
+            # "supplierId": int(self.api.config.seller_id)
         }
     
     def _get_sample_attributes(self, category_id: int) -> List[Dict]:
@@ -314,6 +316,10 @@ class TrendyolProductManager:
         category_attrs = self.category_finder.get_category_attributes(category_id)
         
         for attr in category_attrs.get('categoryAttributes', []):
+            # Skip attributes with empty attributeValues array when custom values are not allowed
+            if not attr.get('attributeValues') and not attr.get('allowCustom'):
+                continue
+                
             attribute = {
                 "attributeId": attr['attribute']['id'],
                 "attributeName": attr['attribute']['name']
@@ -325,8 +331,12 @@ class TrendyolProductManager:
                     attribute["attributeValue"] = attr['attributeValues'][0]['name']
                 else:
                     attribute["customAttributeValue"] = f"Sample {attr['attribute']['name']}"
+            elif attr.get('allowCustom'):
+                attribute["customAttributeValue"] = f"Sample {attr['attribute']['name']}"
             else:
-                attribute["customAttributeValue"] = ""
+                # If we reach here, there's an unexpected condition
+                # Skip this attribute as it has no values and doesn't allow custom
+                continue
             
             attributes.append(attribute)
         
@@ -341,17 +351,17 @@ def main():
         )
         
         product = ProductData(
-            barcode="BRK345t0",
-            title="Erkek Spor Çorap",
-            product_main_id="345t89e200",
+            barcode="BRK-deneme34",
+            title="Turkiyeye ozgu Spor Çorap",
+            product_main_id="PMI-deneme34",
             brand_name="LC Waikiki",
-            category_name="Spor Çorap",
+            category_name="Çorap",
             quantity=100,
-            stock_code="STK345te800",
+            stock_code="STK-denem342",
             price=79.99,
             sale_price=69.99,
             description="Hafif ve konforlu erkek spor çorabı",
-            image_url="https://example.com/socks.jpg"
+            image_url="https://img-lcwaikiki.mncdn.com/mnpadding/600/800/ffffff/pim/productimages/20221/5640090/v2/l_20221-s2aa01z4-lqq_a.jpg"
         )
         
         api_client = TrendyolAPI(config)

@@ -1,6 +1,7 @@
 # serializers.py
 from rest_framework import serializers
-from scraper_apps.lcwaikiki.product_api.models import Product, ProductSize, City, SizeStoreStock, Store
+from scraper_apps.lcwaikiki.product_api.models import Product, ProductSize, SizeStoreStock, Store
+from config.models import CityConfiguration as City
 
 class StoreStockSerializer(serializers.ModelSerializer):
     class Meta:
@@ -169,7 +170,8 @@ class ProductListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = (
-            'id', 'url', 'title', 'category', 'color', 'price', 
+            'id', 'url', 'title', 'category', 'color', 'price', 'product_code',
             'discount_ratio', 'in_stock', 'size_count', 'store_count', 
             'city_count', 'timestamp', 'status'
         )
+

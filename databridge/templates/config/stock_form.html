@@ -1,0 +1,35 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Stock Configuration</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+    
+    {% if object.STOCK_MAPPING %}
+    <div class="mt-4">
+        <h4>Current Mapping Rules:</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Original Quantity</th>
+                    <th>Mapped Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for original, mapped in object.STOCK_MAPPING.items %}
+                <tr>
+                    <td>{{ original }}</td>
+                    <td>{{ mapped }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
