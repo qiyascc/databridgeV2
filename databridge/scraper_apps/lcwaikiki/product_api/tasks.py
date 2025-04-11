@@ -413,26 +413,29 @@ def fetch_sitemap_urls():
         logger.error(f"Error fetching sitemap URLs: {str(e)}")
         return []
 
-def fetch_product_urls(sitemap_url):
-    """Fetch product URLs from a specific sitemap"""
+
+def fetch_product_urls():
+    """Fetch available product URLs from the API"""
     try:
-        product_list_api_url = f"/api/{settings.CURRENTLY_API_VERSION}/lcwaikiki/product-list/only-urls/"
+        product_urls_api = f"/api/lcwaikiki/product/urls/available/"
         # Get base URL from settings or use a default
         base_url = getattr(settings, 'BASE_API_URL', 'http://localhost:8000')
         
-        full_url = f"{base_url.rstrip('/')}{product_list_api_url}?source={sitemap_url}"
+        full_url = f"{base_url.rstrip('/')}{product_urls_api}"
         logger.info(f"Fetching product URLs from: {full_url}")
         
         response = requests.get(full_url)
         if response.status_code == 200:
             data = response.json()
-            return data.get('product_adress', [])
+            # Extract URLs from the response structure
+            return [item['url'] for item in data.get('urls', [])]
         else:
             logger.error(f"Failed to fetch product URLs: HTTP {response.status_code}")
             return []
     except Exception as e:
         logger.error(f"Error fetching product URLs: {str(e)}")
         return []
+
 
 def process_product(url, thread_id=0):
     """Process a single product"""
